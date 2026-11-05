@@ -13,7 +13,7 @@ kramdown:
 exclude:
   - CLAUDE.md
   - README.md
-  - docs/
+  - tools/
   - Gemfile
   - Gemfile.lock
   - vendor/

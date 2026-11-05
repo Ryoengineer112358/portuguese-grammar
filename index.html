@@ -12,7 +12,7 @@ title: Contents
 
 <div class="toc">
 {% for ch in site.data.toc %}
-  <section class="toc-chapter">
+  <section class="toc-chapter" id="ch-{{ ch.chapter }}">
     <h2><span class="ch-num">{{ ch.chapter }}</span> {{ ch.title }}</h2>
     <p class="ch-summary">{{ ch.summary }}</p>
     <ol class="toc-items">

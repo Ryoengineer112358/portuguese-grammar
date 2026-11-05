@@ -62,9 +62,10 @@ The layout adds the chapter label, goal box, sources/verification section, and p
 1. Pick the next item in `_data/toc.yml` (or the one the owner asks for).
 2. Research, then write `lessons/<id>-<slug>.md` from the template.
 3. In `_data/toc.yml`, change that item's `status` to `published`.
-4. Preview locally if possible (see `README.md`), check the page on a narrow (phone) width.
-5. Report to the owner in Japanese: what was added, sources, verification status, open doubts.
-- Do not commit or push unless the owner asks.
+4. Run `python3 tools/readme.py` to regenerate `README.md` (a plain list of chapter/lesson links; no explanations — the book is for the owner only).
+5. Check the page at phone width if possible.
+6. Commit and push to `main` (GitHub Pages publishes automatically), then confirm the live page loads.
+7. Report to the owner in Japanese: what was added, sources, verification status, open doubts.
 
 ## Changing the plan
 - `_data/toc.yml` is the master plan. Lesson IDs (`CC-II`) never change after publication.
