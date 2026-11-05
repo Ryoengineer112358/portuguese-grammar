@@ -1,0 +1,49 @@
+---
+layout: default
+---
+{% assign prv = nil %}{% assign nxt = nil %}{% assign found = false %}{% assign chapter = nil %}
+{% for ch in site.data.toc %}{% for it in ch.items %}
+  {% if it.id == page.lesson_id %}{% assign chapter = ch %}{% endif %}
+  {% if it.status == "published" %}
+    {% if found and nxt == nil %}{% assign nxt = it %}{% endif %}
+    {% if it.id == page.lesson_id %}{% assign found = true %}{% endif %}
+    {% unless found %}{% assign prv = it %}{% endunless %}
+  {% endif %}
+{% endfor %}{% endfor %}
+<article class="lesson">
+  <p class="lesson-meta">
+    Chapter {{ chapter.chapter }} · {{ chapter.title }}<br>
+    Lesson {{ page.lesson_id }} · about 5 minutes
+  </p>
+  <h1>{{ page.title }}</h1>
+  {% if page.goal %}<p class="goal"><strong>Goal:</strong> {{ page.goal }}</p>{% endif %}
+
+  {{ content }}
+
+  <section class="sources">
+    <h2>Sources and verification</h2>
+    {% assign v = page.verification %}
+    <p class="status status-{{ v.status }}">
+      {% case v.status %}
+        {% when "verified" %}🟢 Verified
+        {% when "source-checked" %}🟡 Source-checked
+        {% else %}🟠 Needs checking
+      {% endcase %}
+      — last checked {{ v.checked_on }}
+    </p>
+    {% if v.note %}<p class="status-note">{{ v.note }}</p>{% endif %}
+    <ol>
+      {% for s in page.sources %}
+      <li>
+        {% if s.url %}<a href="{{ s.url }}">{{ s.title }}</a>{% else %}{{ s.title }}{% endif %}{% if s.publisher %} — {{ s.publisher }}{% endif %}
+        <br><span class="source-use">Used for: {{ s.used_for }}</span>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <nav class="lesson-nav">
+    {% if prv %}<a class="prev" href="{{ '/lessons/' | append: prv.id | append: '/' | relative_url }}">← {{ prv.id }} {{ prv.title }}</a>{% else %}<span></span>{% endif %}
+    {% if nxt %}<a class="next" href="{{ '/lessons/' | append: nxt.id | append: '/' | relative_url }}">{{ nxt.id }} {{ nxt.title }} →</a>{% endif %}
+  </nav>
+</article>

@@ -1,0 +1,168 @@
+# Master plan of the book.
+# - Chapters are ordered by how soon a learner needs them for everyday conversation.
+# - Each item is one five-minute lesson. id = "CC-II" (chapter-item).
+# - status: published | planned
+# - A published item's page lives at lessons/<id>-<slug>.md with permalink /lessons/<id>/.
+# - IDs never change once published. To insert a lesson between existing ones,
+#   append it to the chapter with the next free number and reorder the list;
+#   the list order (not the number) is the reading order.
+
+- chapter: 1
+  title: "Who's Talking: Pronouns, Ser and Estar"
+  summary: "Say who you are, how you are, and where you're from."
+  items:
+    - { id: "01-01", title: "Subject pronouns: eu, você, a gente…", status: published }
+    - { id: "01-02", title: "Ser (1): Eu sou… / Você é…", status: planned }
+    - { id: "01-03", title: "Estar (1): Tudo bem? / Estou bem", status: planned }
+    - { id: "01-04", title: "Ser vs. estar: the core distinction", status: planned }
+    - { id: "01-05", title: "Saying no: não", status: planned }
+    - { id: "01-06", title: "Yes/no questions and short answers", status: planned }
+
+- chapter: 2
+  title: "Present Tense: Everyday Verbs"
+  summary: "Talk about what you do, like, want, and have."
+  items:
+    - { id: "02-01", title: "Regular -ar verbs: falar, morar, trabalhar", status: planned }
+    - { id: "02-02", title: "Regular -er verbs: comer, beber, entender", status: planned }
+    - { id: "02-03", title: "Regular -ir verbs: abrir, partir, assistir", status: planned }
+    - { id: "02-04", title: "Ter: to have (and 'there is')", status: planned }
+    - { id: "02-05", title: "Ir: to go", status: planned }
+    - { id: "02-06", title: "Querer and poder: want and can", status: planned }
+    - { id: "02-07", title: "Gostar de: likes and dislikes", status: planned }
+    - { id: "02-08", title: "Fazer, saber, conhecer", status: planned }
+    - { id: "02-09", title: "Estar + -ndo: what's happening right now", status: planned }
+
+- chapter: 3
+  title: "Nouns and Articles"
+  summary: "Gender, plurals, and the little words in front of nouns."
+  items:
+    - { id: "03-01", title: "Masculine and feminine nouns", status: planned }
+    - { id: "03-02", title: "The: o, a, os, as", status: planned }
+    - { id: "03-03", title: "A/an and some: um, uma, uns, umas", status: planned }
+    - { id: "03-04", title: "Making plurals", status: planned }
+    - { id: "03-05", title: "Contractions: no, na, do, da, pro…", status: planned }
+
+- chapter: 4
+  title: "Asking Questions"
+  summary: "Get the information you need in a conversation."
+  items:
+    - { id: "04-01", title: "O que, quem, onde", status: planned }
+    - { id: "04-02", title: "Quando, como, por que", status: planned }
+    - { id: "04-03", title: "Quanto and qual", status: planned }
+    - { id: "04-04", title: "Tag questions: né?, não é?", status: planned }
+
+- chapter: 5
+  title: "Plans and the Future"
+  summary: "Talk about what you're going to do."
+  items:
+    - { id: "05-01", title: "Vou + infinitive: I'm going to…", status: planned }
+    - { id: "05-02", title: "Preciso, quero, tenho que + infinitive", status: planned }
+    - { id: "05-03", title: "Time words: hoje, amanhã, semana que vem", status: planned }
+
+- chapter: 6
+  title: "Describing People and Things"
+  summary: "Adjectives, intensity, and comparisons."
+  items:
+    - { id: "06-01", title: "Adjective agreement", status: planned }
+    - { id: "06-02", title: "Where adjectives go", status: planned }
+    - { id: "06-03", title: "Muito, pouco, bem, meio", status: planned }
+    - { id: "06-04", title: "Comparisons: mais… (do) que", status: planned }
+    - { id: "06-05", title: "Superlatives and -íssimo", status: planned }
+
+- chapter: 7
+  title: "This, That, and Whose"
+  summary: "Point at things and say who they belong to."
+  items:
+    - { id: "07-01", title: "Esse, essa, isso (and este, aquele)", status: planned }
+    - { id: "07-02", title: "Meu, minha, seu, sua", status: planned }
+    - { id: "07-03", title: "Dele, dela: avoiding ambiguity with seu", status: planned }
+
+- chapter: 8
+  title: "Places and Prepositions"
+  summary: "Say where things are and where you're going."
+  items:
+    - { id: "08-01", title: "Em: in, on, at", status: planned }
+    - { id: "08-02", title: "De: from, of", status: planned }
+    - { id: "08-03", title: "Para / pra and com", status: planned }
+    - { id: "08-04", title: "Aqui, aí, ali, lá", status: planned }
+    - { id: "08-05", title: "Tem vs. há: there is / there are", status: planned }
+
+- chapter: 9
+  title: "Numbers, Time, and Dates"
+  summary: "Prices, times, days, and dates."
+  items:
+    - { id: "09-01", title: "Numbers 0–20", status: planned }
+    - { id: "09-02", title: "Numbers 21–1000", status: planned }
+    - { id: "09-03", title: "Telling the time", status: planned }
+    - { id: "09-04", title: "Days of the week and dates", status: planned }
+
+- chapter: 10
+  title: "Talking About the Past"
+  summary: "Tell people what happened."
+  items:
+    - { id: "10-01", title: "Preterite of -ar verbs: falei, falou", status: planned }
+    - { id: "10-02", title: "Preterite of -er and -ir verbs", status: planned }
+    - { id: "10-03", title: "Fui: the past of ser and ir", status: planned }
+    - { id: "10-04", title: "Tive, estive, fiz: common irregular pasts", status: planned }
+    - { id: "10-05", title: "Imperfect: what used to happen", status: planned }
+    - { id: "10-06", title: "Preterite vs. imperfect", status: planned }
+
+- chapter: 11
+  title: "Object Pronouns, the Brazilian Way"
+  summary: "Me, you, him, her — as Brazilians actually say them."
+  items:
+    - { id: "11-01", title: "Me and te", status: planned }
+    - { id: "11-02", title: "Ele/ela as objects in speech (vs. o/a)", status: planned }
+    - { id: "11-03", title: "Lhe and para você", status: planned }
+    - { id: "11-04", title: "Where object pronouns go in Brazil", status: planned }
+
+- chapter: 12
+  title: "Requests, Offers, and Commands"
+  summary: "Ask for things politely and tell people what to do."
+  items:
+    - { id: "12-01", title: "Polite requests: pode…?, queria…", status: planned }
+    - { id: "12-02", title: "Everyday commands: fala!, olha!", status: planned }
+    - { id: "12-03", title: "Negative commands: não faz isso", status: planned }
+    - { id: "12-04", title: "Invitations and suggestions: vamos…?", status: planned }
+
+- chapter: 13
+  title: "Connecting Ideas"
+  summary: "Build longer sentences."
+  items:
+    - { id: "13-01", title: "E, mas, ou", status: planned }
+    - { id: "13-02", title: "Porque, então, por isso", status: planned }
+    - { id: "13-03", title: "Quando, se, enquanto", status: planned }
+    - { id: "13-04", title: "Que: the all-purpose connector", status: planned }
+
+- chapter: 14
+  title: "Reflexive Verbs and Ficar"
+  summary: "Get up, sit down, stay, become."
+  items:
+    - { id: "14-01", title: "Reflexive verbs: me chamo, se sentar", status: planned }
+    - { id: "14-02", title: "Ficar: stay, become, be located", status: planned }
+
+- chapter: 15
+  title: "The Subjunctive (Essentials)"
+  summary: "Wishes, doubts, and 'if' — the forms you hear daily."
+  items:
+    - { id: "15-01", title: "What the subjunctive is for", status: planned }
+    - { id: "15-02", title: "Present subjunctive: forms", status: planned }
+    - { id: "15-03", title: "Tomara que, espero que, quero que", status: planned }
+    - { id: "15-04", title: "Future subjunctive: quando você puder", status: planned }
+    - { id: "15-05", title: "Past subjunctive: se eu fosse", status: planned }
+
+- chapter: 16
+  title: "Conditionals and Compound Tenses"
+  summary: "Would, could, have done."
+  items:
+    - { id: "16-01", title: "Conditional: eu faria / eu ia fazer", status: planned }
+    - { id: "16-02", title: "Tenho feito: the present perfect", status: planned }
+    - { id: "16-03", title: "Tinha feito: the pluperfect", status: planned }
+
+- chapter: 17
+  title: "Sounds and Spelling"
+  summary: "Reference chapter: read Portuguese aloud with confidence."
+  items:
+    - { id: "17-01", title: "Vowels and nasal sounds", status: planned }
+    - { id: "17-02", title: "Brazilian te/de and the 'r' sounds", status: planned }
+    - { id: "17-03", title: "Accent marks and stress", status: planned }

@@ -1,0 +1,19 @@
+title: Brazilian Portuguese Grammar
+description: A conversation-first grammar of Brazilian Portuguese, built one five-minute lesson at a time.
+lang: en
+
+# If you rename the GitHub repository, change this to "/<new-repo-name>".
+baseurl: "/portuguese-grammar"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+exclude:
+  - CLAUDE.md
+  - README.md
+  - docs/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
