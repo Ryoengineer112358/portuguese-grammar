@@ -56,7 +56,7 @@ The layout adds the chapter label, goal box, sources/verification section, and p
 - Every rule in the lesson must be supported by **at least two independent sources**. Otherwise set status `needs-check` and say which point is unconfirmed in `note`.
 - Never claim to have read something you didn't. If only a table of contents or summary was available, say so in `used_for`.
 - `verified` is set **only** when the owner reports that a native speaker or teacher reviewed the lesson.
-- Pronunciation hints are rough English-letter approximations; say so in `note` when used.
+- Pronunciation: give **IPA** for every Portuguese word in a lesson's main table (column "IPA (Brazil)"), never English-letter approximations. Use the general Brazilian phonemic form in slashes as on Wiktionary (e.g. /a ˈʒẽ.t͡ʃi/); note important regional variants (e.g. Rio final /ʃ/) in a line under the table. List the IPA source and whether it was cross-checked in `note`.
 
 ## Adding a lesson (checklist)
 1. Pick the next item in `_data/toc.yml` (or the one the owner asks for).

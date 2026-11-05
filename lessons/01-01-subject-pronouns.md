@@ -7,7 +7,7 @@ goal: "Know which words Brazilians use for I, you, he, she, we, and they — and
 verification:
   status: source-checked
   checked_on: 2026-11-06
-  note: "All rules below agree across at least two of the listed sources. Not yet reviewed by a native speaker or teacher. Pronunciation hints are rough approximations for a São Paulo/Rio-type accent."
+  note: "All rules below agree across at least two of the listed sources. Not yet reviewed by a native speaker or teacher. IPA transcriptions are taken from Wiktionary's Brazilian Portuguese entries only (single source; not yet cross-checked against a second reference)."
 sources:
   - title: "Modern Brazilian Portuguese Grammar: A Practical Guide (3rd ed.)"
     publisher: "John Whitlam, Routledge"
@@ -29,21 +29,27 @@ sources:
     publisher: "Wikipedia"
     url: "https://en.wikipedia.org/wiki/Brazilian_Portuguese"
     used_for: "você is used nationwide; tu is regional (e.g. common in Rio Grande do Sul and parts of the Northeast); a gente with third-person singular verbs."
+  - title: "Entries: eu, você, ele, ela, a gente, gente, nós, vocês, eles, elas"
+    publisher: "Wiktionary"
+    url: "https://en.wiktionary.org/wiki/a_gente"
+    used_for: "IPA transcriptions (Brazil general; Rio de Janeiro /ʃ/ variants; Northeast /ˈʒẽ.ti/ for gente)."
 ---
 
 ## The pronouns
 
-| Portuguese | English | Rough pronunciation |
+| Portuguese | English | IPA (Brazil) |
 |---|---|---|
-| **eu** | I | *EH-oo* |
-| **você** | you (one person) | *vo-SEH* |
-| **ele** | he | *EH-lee* |
-| **ela** | she | *EH-la* |
-| **a gente** | we (everyday speech) | *ah ZHEN-chee* |
-| **nós** | we | *NOS* (often *NOYS*) |
-| **vocês** | you (two or more people) | *vo-SEHS* |
-| **eles** | they (men, or a mixed group) | *EH-lees* |
-| **elas** | they (women only) | *EH-las* |
+| **eu** | I | /ˈew/ |
+| **você** | you (one person) | /voˈse/ |
+| **ele** | he | /ˈe.li/ |
+| **ela** | she | /ˈɛ.lɐ/ |
+| **a gente** | we (everyday speech) | /a ˈʒẽ.t͡ʃi/ |
+| **nós** | we | /ˈnɔ(j)s/ |
+| **vocês** | you (two or more people) | /voˈse(j)s/ |
+| **eles** | they (men, or a mixed group) | /ˈe.lis/ |
+| **elas** | they (women only) | /ˈɛ.lɐs/ |
+
+In Rio de Janeiro, a final *s* is pronounced /ʃ/: *nós* /ˈnɔ(j)ʃ/, *vocês* /voˈse(j)ʃ/, *eles* /ˈe.liʃ/, *elas* /ˈɛ.lɐʃ/. In much of the Northeast, *gente* is /ˈʒẽ.ti/ rather than /ˈʒẽ.t͡ʃi/.
 
 ## Three things that make Brazilian Portuguese easier
 
