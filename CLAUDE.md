@@ -45,7 +45,7 @@ sources:
 Body sections, in this order (use `##` headings):
 1. The core rule / form (usually a table)
 2. Explanation (numbered key points, 2–4)
-3. `## In conversation` — examples using `<ul class="ex">` with `<span class="pt">` / `<span class="en">`
+3. `## In conversation` — examples using `<ul class="ex">` with `<span class="pt">` / `<span class="ipa">` / `<span class="en">` (every example gets an IPA line built from Wiktionary's Brazil forms; name any word filled in by analogy in `note`)
 4. `## Watch out` — common mistakes, regional or register notes, as `>` blockquotes
 5. `## Quick check` — 2–4 questions, each in `<details markdown="1"><summary>…</summary> answer </details>`
 
