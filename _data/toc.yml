@@ -13,7 +13,7 @@
   items:
     - { id: "01-01", title: "Subject pronouns: eu, você, a gente…", status: published }
     - { id: "01-02", title: "Ser (1): Eu sou… / Você é…", status: published }
-    - { id: "01-03", title: "Estar (1): Tudo bem? / Estou bem", status: planned }
+    - { id: "01-03", title: "Estar (1): Tudo bem? / Estou bem", status: published }
     - { id: "01-04", title: "Ser vs. estar: the core distinction", status: planned }
     - { id: "01-05", title: "Saying no: não", status: planned }
     - { id: "01-06", title: "Yes/no questions and short answers", status: planned }
