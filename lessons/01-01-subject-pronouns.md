@@ -7,7 +7,7 @@ goal: "Know which words Brazilians use for I, you, he, she, we, and they — and
 verification:
   status: source-checked
   checked_on: 2026-11-06
-  note: "All rules below agree across at least two of the listed sources. Not yet reviewed by a native speaker or teacher. IPA transcriptions are taken from Wiktionary's Brazilian Portuguese entries only (single source; not yet cross-checked against a second reference)."
+  note: "All rules below agree across at least two of the listed sources. Not yet reviewed by a native speaker or teacher. IPA transcriptions are taken from Wiktionary's Brazilian Portuguese entries only (single source; not yet cross-checked against a second reference). Sentence IPA strings together the dictionary form of each word, so linking and reduction in fast speech are not shown. Not found on Wiktionary and filled in by analogy: moro, moram (from mora, falam), São Paulo, and the articles o /u/, a /a/."
 sources:
   - title: "Modern Brazilian Portuguese Grammar: A Practical Guide (3rd ed.)"
     publisher: "John Whitlam, Routledge"
@@ -29,7 +29,7 @@ sources:
     publisher: "Wikipedia"
     url: "https://en.wikipedia.org/wiki/Brazilian_Portuguese"
     used_for: "você is used nationwide; tu is regional (e.g. common in Rio Grande do Sul and parts of the Northeast); a gente with third-person singular verbs."
-  - title: "Entries: eu, você, ele, ela, a gente, gente, nós, vocês, eles, elas"
+  - title: "Entries for each word in this lesson (eu, você, a gente, sou, fala, Japão, senhor, …)"
     publisher: "Wiktionary"
     url: "https://en.wiktionary.org/wiki/a_gente"
     used_for: "IPA transcriptions (Brazil general; Rio de Janeiro /ʃ/ variants; Northeast /ˈʒẽ.ti/ for gente)."
@@ -54,7 +54,7 @@ In Rio de Janeiro, a final *s* is pronounced /ʃ/: *nós* /ˈnɔ(j)ʃ/, *vocês*
 ## Three things that make Brazilian Portuguese easier
 
 **1. "You" is *você*, and it takes the same verb as *he/she*.**
-Textbooks from Portugal teach *tu* for "you", with its own verb ending. In most of Brazil, *você* is the normal word for "you" with anyone you'd address casually, and its verb looks exactly like the one for *ele/ela*. You will hear *tu* in some regions (for example Rio Grande do Sul and parts of the Northeast), often with the same verb form as *você* — so understand it, but you don't need to produce it yet.
+Textbooks from Portugal teach *tu* for "you", with its own verb ending. In most of Brazil, *você* is the normal word for "you" with anyone you'd address casually, and its verb looks exactly like the one for *ele/ela*. You will hear *tu* /ˈtu/ in some regions (for example Rio Grande do Sul and parts of the Northeast), often with the same verb form as *você* — so understand it, but you don't need to produce it yet.
 
 **2. *A gente* is the everyday "we" — and it also takes the *he/she* verb.**
 *A gente* literally means "the people," but in conversation it means "we." Both *a gente* and *nós* are correct; *a gente* is more common in speech, while *nós* dominates formal writing. Because *a gente* uses the same verb form as *você*, *ele*, and *ela*, it saves you a whole conjugation at the start.
@@ -64,23 +64,23 @@ So in practice, Brazilian speech mostly uses just four verb forms: one for *eu*,
 
 Here's that pattern with *falar* ("to speak") — you'll study the endings properly in Chapter 2:
 
-| Who | Verb |
-|---|---|
-| eu | fal**o** |
-| você · ele · ela · a gente | fal**a** |
-| nós | fal**amos** |
-| vocês · eles · elas | fal**am** |
+| Who | Verb | IPA |
+|---|---|---|
+| eu | fal**o** | /ˈfa.lu/ |
+| você · ele · ela · a gente | fal**a** | /ˈfa.lɐ/ |
+| nós | fal**amos** | /faˈlɐ̃.mus/ |
+| vocês · eles · elas | fal**am** | /ˈfa.lɐ̃w̃/ |
 
 ## In conversation
 
 <ul class="ex">
-  <li><span class="pt">Eu sou do Japão.</span><span class="en">I'm from Japan.</span></li>
-  <li><span class="pt">Você fala inglês?</span><span class="en">Do you speak English?</span></li>
-  <li><span class="pt">Ela é minha amiga.</span><span class="en">She's my friend.</span></li>
-  <li><span class="pt">A gente vai amanhã.</span><span class="en">We're going tomorrow.</span></li>
-  <li><span class="pt">Vocês são daqui?</span><span class="en">Are you (all) from around here?</span></li>
-  <li><span class="pt">Eles moram em São Paulo.</span><span class="en">They live in São Paulo.</span></li>
-  <li><span class="pt">— Você mora aqui? — Moro, sim.</span><span class="en">"Do you live here?" "Yes, I do."</span></li>
+  <li><span class="pt">Eu sou do Japão.</span><span class="ipa">/ˈew ˈso(w) du ʒaˈpɐ̃w̃/</span><span class="en">I'm from Japan.</span></li>
+  <li><span class="pt">Você fala inglês?</span><span class="ipa">/voˈse ˈfa.lɐ ĩˈɡle(j)s/</span><span class="en">Do you speak English?</span></li>
+  <li><span class="pt">Ela é minha amiga.</span><span class="ipa">/ˈɛ.lɐ ˈɛ ˈmĩ.ɲɐ aˈmi.ɡɐ/</span><span class="en">She's my friend.</span></li>
+  <li><span class="pt">A gente vai amanhã.</span><span class="ipa">/a ˈʒẽ.t͡ʃi ˈvaj a.mɐ̃ˈɲɐ̃/</span><span class="en">We're going tomorrow.</span></li>
+  <li><span class="pt">Vocês são daqui?</span><span class="ipa">/voˈse(j)s ˈsɐ̃w̃ daˈki/</span><span class="en">Are you (all) from around here?</span></li>
+  <li><span class="pt">Eles moram em São Paulo.</span><span class="ipa">/ˈe.lis ˈmɔ.ɾɐ̃w̃ ẽj̃ ˈsɐ̃w̃ ˈpaw.lu/</span><span class="en">They live in São Paulo.</span></li>
+  <li><span class="pt">— Você mora aqui? — Moro, sim.</span><span class="ipa">/voˈse ˈmɔ.ɾɐ aˈki/ — /ˈmɔ.ɾu ˈsĩ/</span><span class="en">"Do you live here?" "Yes, I do."</span></li>
 </ul>
 
 Don't worry about the verbs yet — focus on who is speaking about whom.
@@ -91,7 +91,7 @@ Don't worry about the verbs yet — focus on who is speaking about whom.
 
 > **Dropping the pronoun.** Since the *eu* and *nós* verb forms are unique, Brazilians often leave those pronouns out: *Moro aqui* ("I live here"), *Falamos inglês* ("We speak English"). With *você*, *ele*, *ela*, and *a gente*, the verb form alone is ambiguous, so the pronoun is usually kept. When in doubt, keep it — it's never wrong.
 
-> **Being polite.** With older people, customers, or in formal settings, Brazilians often say *o senhor* (to a man) and *a senhora* (to a woman) instead of *você*. The verb form is the same as with *você*: *O senhor fala inglês?*
+> **Being polite.** With older people, customers, or in formal settings, Brazilians often say *o senhor* /u sẽˈɲoʁ/ (to a man) and *a senhora* /a sẽˈɲɔ.ɾɐ/ (to a woman) instead of *você*. The verb form is the same as with *você*: *O senhor fala inglês?*
 
 ## Quick check
 

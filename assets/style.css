@@ -60,6 +60,7 @@ blockquote p { margin: 0.3em 0; }
 .ex { list-style: none; padding: 0; }
 .ex li { padding: 8px 0; border-bottom: 1px dashed var(--line); }
 .ex .pt { font-weight: 600; display: block; }
+.ex .ipa { display: block; font-size: 0.9em; color: var(--accent); font-family: "Charis SIL", "Doulos SIL", "Gentium Plus", "Noto Sans", "Lucida Grande", sans-serif; }
 .ex .en { color: var(--muted); display: block; }
 
 details { margin: 0.8em 0; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; }
