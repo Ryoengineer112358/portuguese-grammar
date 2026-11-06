@@ -19,6 +19,7 @@ The owner adds lessons a little at a time over several years. Follow these rules
 - Example sentences must be **things people actually say in everyday conversation**: short, natural, colloquial Brazilian. No textbook-only sentences ("The pen is on the table"). Prefer dialogue pairs (— … — …) where they help.
 - 5–8 examples per lesson. It's fine if examples contain verbs/words not yet taught; add a one-line "don't worry about X yet" if needed.
 - Every Portuguese example has an English translation in the same item.
+- **Every Portuguese sentence anywhere in a lesson** — tables, explanations, Watch out, Quick check answers — gets both an English translation and IPA (`<span class="ipa">/…/</span>`). In table cells, stack them: `*Portuguese.*<br><span class="ipa">/…/</span><br>English.` Avoid 4-column tables; split into two tables so they fit a phone screen. (Single words cited in prose need IPA only the first time.)
 
 ## Lesson template
 File: `lessons/<id>-<slug>.md` (e.g. `lessons/02-01-ar-verbs.md`). Front matter:

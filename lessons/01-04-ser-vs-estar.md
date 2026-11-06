@@ -7,7 +7,7 @@ goal: "Choose between ser and estar in everyday sentences — including the same
 verification:
   status: source-checked
   checked_on: 2026-11-06
-  note: "The core rule, the bonita/alegre contrast, estar for people and movable things, ser for when and where events take place, and ficar for fixed places, and estar for current weather each agree across at least two of the listed sources (both Elon pages count as one publisher). Not yet reviewed by a native speaker or teacher. IPA is from Wiktionary only; sentence IPA strings together dictionary forms. Filled in by analogy: do /du/ (Wiktionary), o /u/."
+  note: "The core rule, the bonita/alegre contrast, estar for people and movable things, ser for when and where events take place, and ficar for fixed places, and estar for current weather each agree across at least two of the listed sources (both Elon pages count as one publisher). Not yet reviewed by a native speaker or teacher. IPA is from Wiktionary only; sentence IPA strings together dictionary forms. Filled in by analogy (not found on Wiktionary): the articles o /u/ and as /as/, no /nu/ (from do /du/)."
 sources:
   - title: "Estar for Temporary States and Conditions"
     publisher: "Elon.io — Brazilian Portuguese grammar"
@@ -42,29 +42,52 @@ sources:
 
 A useful test: *could this change in an hour?* If so, it's almost certainly *estar*.
 
-| Use **ser** for… | Example | Use **estar** for… | Example |
-|---|---|---|---|
-| name, job, nationality, origin | *Sou engenheiro.* | feelings and moods now | *Tô feliz.* |
-| personality, lasting traits | *Ela é alegre.* | temporary states | *Tô cansado.* |
-| marital status | *Sou casado.* | how something looks/tastes now | *Você tá bonita hoje.* |
-| when and where an **event** happens | *A festa é amanhã.* | where a **person or object** is | *Meu celular tá na mesa.* |
+**Use *ser* for…**
+
+| Use | Example |
+|---|---|
+| name, job, nationality, origin | *Sou engenheiro.*<br><span class="ipa">/ˈso(w) ẽ.ʒẽˈɲe(j).ɾu/</span><br>I'm an engineer. |
+| personality, lasting traits | *Ela é alegre.*<br><span class="ipa">/ˈɛ.lɐ ˈɛ aˈlɛ.ɡɾi/</span><br>She's a cheerful person. |
+| marital status | *Sou casado.*<br><span class="ipa">/ˈso(w) kaˈza.du/</span><br>I'm married. |
+| when and where an **event** happens | *A festa é amanhã.*<br><span class="ipa">/a ˈfɛs.tɐ ˈɛ a.mɐ̃ˈɲɐ̃/</span><br>The party is tomorrow. |
+
+**Use *estar* for…**
+
+| Use | Example |
+|---|---|
+| feelings and moods right now | *Tô feliz.*<br><span class="ipa">/ˈto feˈlis/</span><br>I'm happy. |
+| temporary states | *Tô cansado.*<br><span class="ipa">/ˈto kɐ̃ˈsa.du/</span><br>I'm tired. |
+| how something looks or seems right now | *Você tá bonita hoje.*<br><span class="ipa">/voˈse ˈta buˈni.tɐ ˈo.ʒi/</span><br>You look nice today. |
+| where a **person or object** is | *Meu celular tá na mesa.*<br><span class="ipa">/ˈmew se.luˈlaʁ ˈta na ˈme.zɐ/</span><br>My phone is on the table. |
 
 ## Same adjective, different meaning
 
 Many adjectives work with both verbs, and the verb changes the message:
 
-- *Ela **é** bonita.* — She's a beautiful person (always).
-  *Ela **tá** bonita hoje.* — She looks lovely today.
-- *Ela **é** alegre.* — She has a cheerful personality.
-  *Ela **tá** alegre.* — She's in a good mood (right now).
+| *ser* | *estar* |
+|---|---|
+| *Ela **é** bonita.*<br><span class="ipa">/ˈɛ.lɐ ˈɛ buˈni.tɐ/</span><br>She's beautiful (that's how she is). | *Ela **tá** bonita hoje.*<br><span class="ipa">/ˈɛ.lɐ ˈta buˈni.tɐ ˈo.ʒi/</span><br>She looks lovely today. |
+| *Ela **é** alegre.*<br><span class="ipa">/ˈɛ.lɐ ˈɛ aˈlɛ.ɡɾi/</span><br>She has a cheerful personality. | *Ela **tá** alegre.*<br><span class="ipa">/ˈɛ.lɐ ˈta aˈlɛ.ɡɾi/</span><br>She's in a good mood (right now). |
 
-This is also why *Eu sou cansado* is wrong for "I'm tired": with *ser*, it describes a permanent trait — something like "I'm a tiring person." Right now, you're *cansado* with *estar*: *Tô cansado*.
+This is also why *Eu sou cansado* /ˈew ˈso(w) kɐ̃ˈsa.du/ is wrong for "I'm tired": with *ser*, it describes a permanent trait — something like "I'm a tiring person." Right now, you're tired with *estar*: *Tô cansado* /ˈto kɐ̃ˈsa.du/.
 
 ## Where is it? *Estar*, *ser*, or *ficar*
 
-- **People and things that move:** *estar*. *Onde você tá?* · *Meu celular tá na mesa.*
-- **Events** (parties, meetings, games): *ser*, for both time and place. *A festa é amanhã.* · *A festa é na casa do João.*
-- **Places that never move** (buildings, cities, the bathroom): Brazilians usually use *ficar* /fiˈka(ʁ)/. *Onde fica o banheiro?* (*Ser* is also possible here, but *estar* is not.) You'll meet *ficar* properly in lesson 14-02.
+**People and things that move → *estar***
+
+- *Onde você tá?* <span class="ipa">/ˈõ.d͡ʒi voˈse ˈta/</span> — Where are you?
+- *Meu celular tá na mesa.* <span class="ipa">/ˈmew se.luˈlaʁ ˈta na ˈme.zɐ/</span> — My phone is on the table.
+
+**Events (parties, meetings, games) → *ser*, for both time and place**
+
+- *A festa é amanhã.* <span class="ipa">/a ˈfɛs.tɐ ˈɛ a.mɐ̃ˈɲɐ̃/</span> — The party is tomorrow.
+- *A festa é na casa do João.* <span class="ipa">/a ˈfɛs.tɐ ˈɛ na ˈka.zɐ du ʒoˈɐ̃w̃/</span> — The party is at João's place.
+
+**Places that never move (buildings, cities, the bathroom) → usually *ficar* /fiˈka(ʁ)/**
+
+- *Onde fica o banheiro?* <span class="ipa">/ˈõ.d͡ʒi ˈfi.kɐ u bɐ̃ˈɲe(j).ɾu/</span> — Where's the bathroom?
+
+*Ser* is also possible for fixed places, but *estar* is not. You'll meet *ficar* properly in lesson 14-02.
 
 ## In conversation
 
@@ -81,34 +104,42 @@ This is also why *Eu sou cansado* is wrong for "I'm tired": with *ser*, it descr
 
 ## Watch out
 
-> **"Permanent vs. temporary" is only a rule of thumb.** Events use *ser* even though they're one-off (*A festa é amanhã*), and fixed places use *ficar*, not *estar*. Learn the location rules above as their own pattern.
+> **"Permanent vs. temporary" is only a rule of thumb.** Events use *ser* even though they're one-off — *A festa é amanhã* <span class="ipa">/a ˈfɛs.tɐ ˈɛ a.mɐ̃ˈɲɐ̃/</span> ("The party is tomorrow") — and fixed places use *ficar*, not *estar*. Learn the location rules above as their own pattern.
 
-> **Weather right now takes *estar*.** *Tá frio hoje* /ˈta ˈfɾi.u ˈo.ʒi/ — "It's cold today."
+> **Weather right now takes *estar*.** *Tá frio hoje.* <span class="ipa">/ˈta ˈfɾi.u ˈo.ʒi/</span> — "It's cold today."
 
-> **Don't use *estar* for buildings.** *O restaurante tá na esquina* sounds off; say *O restaurante fica na esquina* ("The restaurant is on the corner").
+> **Don't use *estar* for buildings.**<br>
+> ✗ *O restaurante tá na esquina.*<br>
+> ✓ *O restaurante fica na esquina.* <span class="ipa">/u ʁes.tawˈɾɐ̃.t͡ʃi ˈfi.kɐ na isˈkĩ.nɐ/</span> — "The restaurant is on the corner."
 
 ## Quick check
 
 <details markdown="1">
 <summary>1. "I'm tired." — <em>Sou cansado</em> or <em>Tô cansado</em>?</summary>
 
-*Tô cansado* (*Estou cansado*). *Sou cansado* would describe a permanent trait.
+*Tô cansado.* <span class="ipa">/ˈto kɐ̃ˈsa.du/</span> (written: *Estou cansado.* <span class="ipa">/isˈto(w) kɐ̃ˈsa.du/</span>) *Sou cansado* would describe a permanent trait.
 </details>
 
 <details markdown="1">
 <summary>2. What's the difference between <em>Ela é bonita</em> and <em>Ela tá bonita</em>?</summary>
 
-*É bonita*: she's a beautiful person. *Tá bonita*: she looks nice right now / today.
+*Ela é bonita.* <span class="ipa">/ˈɛ.lɐ ˈɛ buˈni.tɐ/</span> — She's a beautiful person.
+
+*Ela tá bonita.* <span class="ipa">/ˈɛ.lɐ ˈta buˈni.tɐ/</span> — She looks nice right now / today.
 </details>
 
 <details markdown="1">
 <summary>3. Fill in: <em>A reunião ___ às três.</em> ("The meeting is at three.")</summary>
 
 *é* — events take *ser*.
+
+*A reunião é às três.* <span class="ipa">/a ʁe.u.niˈɐ̃w̃ ˈɛ as ˈtɾe(j)s/</span>
 </details>
 
 <details markdown="1">
 <summary>4. Fill in: <em>As chaves ___ no carro.</em> ("The keys are in the car.")</summary>
 
 *tão* / *estão* — movable objects take *estar*.
+
+*As chaves tão no carro.* <span class="ipa">/as ˈʃa.vis ˈtɐ̃w̃ nu ˈka.ʁu/</span>
 </details>
