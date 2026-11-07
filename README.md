@@ -5,6 +5,7 @@
   - [01-02 Ser (1): Eu sou… / Você é…](https://ryoengineer112358.github.io/portuguese-grammar/lessons/01-02/)
   - [01-03 Estar (1): Tudo bem? / Estou bem](https://ryoengineer112358.github.io/portuguese-grammar/lessons/01-03/)
   - [01-04 Ser vs. estar: the core distinction](https://ryoengineer112358.github.io/portuguese-grammar/lessons/01-04/)
+  - [01-05 Saying no: não](https://ryoengineer112358.github.io/portuguese-grammar/lessons/01-05/)
 - [**2. Present Tense: Everyday Verbs**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-2)
 - [**3. Nouns and Articles**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-3)
 - [**4. Asking Questions**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-4)
