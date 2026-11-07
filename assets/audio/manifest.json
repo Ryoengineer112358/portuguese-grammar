@@ -2,152 +2,177 @@
  "A gente vai amanhã.": {
   "file": "a6d0eba12741.mp3",
   "voices": [
-   "Kore"
-  ]
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "A gente vai à praia.": {
   "file": "60cb564794b9.mp3",
   "voices": [
-   "Achird"
-  ]
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "Ela é minha amiga.": {
   "file": "97f7c2c731ff.mp3",
   "voices": [
-   "Zephyr"
-  ]
+   "Schedar"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "Eles moram em São Paulo.": {
   "file": "45f5267cfeeb.mp3",
   "voices": [
-   "Sadachbia"
-  ]
+   "Algenib"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "Eu sou do Japão.": {
   "file": "c9b882e823b6.mp3",
   "voices": [
-   "Sulafat"
-  ]
+   "Alnilam"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "Falamos inglês.": {
   "file": "bbd4aa783079.mp3",
   "voices": [
-   "Kore"
-  ]
+   "Leda"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "Moro aqui.": {
   "file": "8464c4338071.mp3",
   "voices": [
-   "Erinome"
-  ]
+   "Sadachbia"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "Nós vamos à praia.": {
   "file": "eb46c9b85fe5.mp3",
   "voices": [
-   "Gacrux"
-  ]
+   "Aoede"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "O senhor fala inglês?": {
   "file": "2047c54ffeed.mp3",
   "voices": [
-   "Sadachbia"
-  ]
+   "Autonoe"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "Você fala inglês?": {
   "file": "2a8004c8384c.mp3",
   "voices": [
-   "Enceladus"
-  ]
+   "Fenrir"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "Vocês são daqui?": {
   "file": "9274b3a47c38.mp3",
   "voices": [
-   "Leda"
-  ]
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "a gente": {
   "file": "28fab42c6ad6.mp3",
   "voices": [
    "Sadaltager"
-  ]
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "ela": {
   "file": "b0fdbed76d70.mp3",
   "voices": [
-   "Vindemiatrix"
-  ]
+   "Despina"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "elas": {
   "file": "68158022ea88.mp3",
   "voices": [
-   "Enceladus"
-  ]
+   "Fenrir"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "ele": {
   "file": "9d4799a1ea1b.mp3",
   "voices": [
-   "Callirrhoe"
-  ]
+   "Gacrux"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "eles": {
   "file": "fc4bc3ffc8e2.mp3",
   "voices": [
-   "Alnilam"
-  ]
+   "Schedar"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "eu": {
   "file": "608e01334f55.mp3",
   "voices": [
-   "Sadaltager"
-  ]
+   "Laomedeia"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "fala": {
   "file": "a752d6baccaf.mp3",
   "voices": [
-   "Erinome"
-  ]
+   "Vindemiatrix"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "falam": {
   "file": "5ef7dc61ff37.mp3",
   "voices": [
-   "Sulafat"
-  ]
+   "Achernar"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "falamos": {
   "file": "158e3213e469.mp3",
   "voices": [
-   "Gacrux"
-  ]
+   "Laomedeia"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "falo": {
   "file": "a939963602c2.mp3",
   "voices": [
-   "Fenrir"
-  ]
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "nós": {
   "file": "c39248cd10c9.mp3",
   "voices": [
-   "Sulafat"
-  ]
+   "Leda"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "você": {
   "file": "4e55c9bfde76.mp3",
   "voices": [
-   "Sadachbia"
-  ]
+   "Gacrux"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "vocês": {
   "file": "11f81007b307.mp3",
   "voices": [
-   "Vindemiatrix"
-  ]
+   "Puck"
+  ],
+  "model": "gemini-3.8-flash-tts"
  },
  "— Você mora aqui? — Moro, sim.": {
   "file": "79c66ee4181f.mp3",
   "voices": [
-   "Zephyr",
-   "Laomedeia"
-  ]
+   "Sulafat",
+   "Autonoe"
+  ],
+  "model": "gemini-3.8-flash-tts"
  }
 }

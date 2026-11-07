@@ -34,10 +34,10 @@ When the owner gives new feedback about how lessons should be written, update th
 
 ## Audio (Brazilian Portuguese, ▶ buttons)
 - **Status: trial in 01-01 only (2026-11-08).** Once the owner approves, run it for every lesson and make it part of the checklist below.
-- `python3 tools/tts.py lessons/<file>.md` creates one mp3 per Portuguese text that has IPA (Google Cloud TTS, pt-BR Chirp3-HD voices, a random voice per clip; dialogues get a different voice per turn, joined with a short pause by ffmpeg) and records it in `assets/audio/manifest.json`. Existing clips are reused; running it with no arguments does all lessons and deletes unused clips.
-- If the owner says a clip sounds wrong (e.g. a syllable is missing), re-record just that text: `python3 tools/tts.py --redo "<text>"` (new random voice). Glitches are occasional and per clip, not per voice. The page adds the voice names as a query string, so the browser fetches the new file.
+- `python3 tools/tts.py lessons/<file>.md` creates one mp3 per Portuguese text that has IPA and records it in `assets/audio/manifest.json`. Engine: **Gemini 3.8 Flash TTS** (`gemini-3.8-flash-tts` on Vertex AI, chosen 2026-11-08 by the owner over Chirp 3 HD), one of its 30 voices at random per clip; dialogues use its two-speaker mode with two random voices. Existing clips are reused (clips from another model are re-recorded); running it with no arguments does all lessons and deletes unused clips.
+- If the owner says a clip sounds wrong (e.g. a syllable is missing), re-record just that text: `python3 tools/tts.py --redo "<text>"` (new random voice). Glitches are occasional and per clip, not per voice. The owner does not want an automatic detector. The page adds the voice and model names as a query string, so the browser fetches the new file.
 - `assets/audio.js` adds a ▶ button after each IPA that has a clip. Its text-finding rules must stay in sync with `tools/tts.py`.
-- The API key is `GOOGLE_TTS_API_KEY` in `.env` (git-ignored; copied from `~/Developer/personal/anki-vocab-app/.env.local`). Never commit it.
+- Auth: the owner's `gcloud` login (`gcloud auth print-access-token`) and `GCP_PROJECT_ID` in `.env` (git-ignored; same project as `~/Developer/personal/anki-vocab-app`). Needs ffmpeg. Never commit `.env`.
 - The owner does not want a note saying the audio is synthesized. Don't add one.
 
 ## Layout rules (phone first)
