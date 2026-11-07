@@ -1,4 +1,25 @@
 {
+ "A festa é amanhã": {
+  "file": "3ad661b25592.mp3",
+  "voices": [
+   "Sadachbia"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "A festa é amanhã.": {
+  "file": "8d72f1694494.mp3",
+  "voices": [
+   "Gacrux"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "A festa é na casa do João.": {
+  "file": "53f051a9959c.mp3",
+  "voices": [
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
  "A gente vai amanhã.": {
   "file": "a6d0eba12741.mp3",
   "voices": [
@@ -13,10 +34,185 @@
   ],
   "model": "gemini-3.8-flash-tts"
  },
+ "A reunião é às três.": {
+  "file": "6f79ccb2231c.mp3",
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "As chaves tão no carro.": {
+  "file": "cbe94d72705f.mp3",
+  "voices": [
+   "Sadachbia"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Com licença, onde fica o banheiro?": {
+  "file": "63dae4cd6968.mp3",
+  "voices": [
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Como você tá?": {
+  "file": "87565f6d0f93.mp3",
+  "voices": [
+   "Algenib"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "De onde você é?": {
+  "file": "43fd44e39ad4.mp3",
+  "voices": [
+   "Alnilam"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Depois eu falo com você, tá?": {
+  "file": "839860843352.mp3",
+  "voices": [
+   "Callirrhoe"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Desculpa, não entendi.": {
+  "file": "22851405ab76.mp3",
+  "voices": [
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Desculpa, tô atrasado!": {
+  "file": "9371f2b4d96c.mp3",
+  "voices": [
+   "Puck"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ela não tá em casa agora.": {
+  "file": "03474e95f840.mp3",
+  "voices": [
+   "Puck"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ela não tá em casa.": {
+  "file": "cd6f3b812f42.mp3",
+  "voices": [
+   "Umbriel"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ela tá alegre.": {
+  "file": "cf8177c35ef0.mp3",
+  "voices": [
+   "Vindemiatrix"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ela tá bonita hoje.": {
+  "file": "c6bbd8561553.mp3",
+  "voices": [
+   "Iapetus"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ela tá bonita.": {
+  "file": "fa437a027473.mp3",
+  "voices": [
+   "Enceladus"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ela tá em casa.": {
+  "file": "dafcc9409156.mp3",
+  "voices": [
+   "Alnilam"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ela tá em casa?": {
+  "file": "333c8678a77f.mp3",
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ela tá no trabalho agora.": {
+  "file": "7ba81684ba2a.mp3",
+  "voices": [
+   "Umbriel"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ela é alegre.": {
+  "file": "7c6c57cdab3b.mp3",
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ela é bonita.": {
+  "file": "fdbfa55e55d0.mp3",
+  "voices": [
+   "Alnilam"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ela é brasileira.": {
+  "file": "6b4cb584b136.mp3",
+  "voices": [
+   "Aoede"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ela é casada?": {
+  "file": "03539e845d32.mp3",
+  "voices": [
+   "Achernar"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
  "Ela é minha amiga.": {
   "file": "97f7c2c731ff.mp3",
   "voices": [
    "Schedar"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ela é médica.": {
+  "file": "9fe2d639007d.mp3",
+  "voices": [
+   "Autonoe"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ele é brasileiro.": {
+  "file": "522038bda679.mp3",
+  "voices": [
+   "Leda"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ele é muito legal.": {
+  "file": "224ad521253b.mp3",
+  "voices": [
+   "Laomedeia"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ele é médico.": {
+  "file": "1f25af1b5158.mp3",
+  "voices": [
+   "Aoede"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ele é um médico muito bom.": {
+  "file": "59176e241fe2.mp3",
+  "voices": [
+   "Orus"
   ],
   "model": "gemini-3.8-flash-tts"
  },
@@ -27,10 +223,101 @@
   ],
   "model": "gemini-3.8-flash-tts"
  },
+ "Eles são brasileiros.": {
+  "file": "959e3ddebb09.mp3",
+  "voices": [
+   "Alnilam"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Estou": {
+  "file": "199b17a96139.mp3",
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Estou cansado.": {
+  "file": "1a6dc09e2e99.mp3",
+  "voices": [
+   "Leda"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Estou com fome.": {
+  "file": "efa723ae2b76.mp3",
+  "voices": [
+   "Callirrhoe"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Eu falo inglês.": {
+  "file": "b36994067cb9.mp3",
+  "voices": [
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Eu não falo espanhol.": {
+  "file": "b33b7a33b75f.mp3",
+  "voices": [
+   "Sulafat"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Eu não falo inglês.": {
+  "file": "fabe406681e3.mp3",
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Eu sou Ana.": {
+  "file": "e178001c40ec.mp3",
+  "voices": [
+   "Alnilam"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Eu sou a Ana.": {
+  "file": "3868d53d6836.mp3",
+  "voices": [
+   "Aoede"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Eu sou do Brasil.": {
+  "file": "ed258847248c.mp3",
+  "voices": [
+   "Vindemiatrix"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
  "Eu sou do Japão.": {
   "file": "c9b882e823b6.mp3",
   "voices": [
    "Alnilam"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Eu sou engenheiro.": {
+  "file": "a01512dd8722.mp3",
+  "voices": [
+   "Sulafat"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Eu sou estudante.": {
+  "file": "d2fd676e0357.mp3",
+  "voices": [
+   "Laomedeia"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Fala português?": {
+  "file": "6eac8b53c542.mp3",
+  "voices": [
+   "Despina"
   ],
   "model": "gemini-3.8-flash-tts"
  },
@@ -41,10 +328,129 @@
   ],
   "model": "gemini-3.8-flash-tts"
  },
+ "Gosto, sim.": {
+  "file": "e109ebbdfc80.mp3",
+  "voices": [
+   "Vindemiatrix"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Gosto.": {
+  "file": "6ad446f398d1.mp3",
+  "voices": [
+   "Aoede"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Hoje tô muito feliz.": {
+  "file": "83321b18bc8a.mp3",
+  "voices": [
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Isso.": {
+  "file": "68125990f361.mp3",
+  "voices": [
+   "Algenib"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Meu celular tá na mesa.": {
+  "file": "65c460ddfa87.mp3",
+  "voices": [
+   "Rasalgethi"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
  "Moro aqui.": {
   "file": "8464c4338071.mp3",
   "voices": [
    "Sadachbia"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Ninguém sabe.": {
+  "file": "237b62ee2434.mp3",
+  "voices": [
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Nossa, você tá bonita hoje!": {
+  "file": "d04d6e305691.mp3",
+  "voices": [
+   "Sulafat"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Nunca fui ao Rio.": {
+  "file": "e24366b0bd56.mp3",
+  "voices": [
+   "Umbriel"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Não conheço ninguém aqui.": {
+  "file": "e61aeea7cc24.mp3",
+  "voices": [
+   "Umbriel"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Não gosto de café.": {
+  "file": "76f505bc5bce.mp3",
+  "voices": [
+   "Sadaltager"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Não sei, não.": {
+  "file": "831b282db959.mp3",
+  "voices": [
+   "Pulcherrima"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Não sei.": {
+  "file": "844530871c2d.mp3",
+  "voices": [
+   "Fenrir"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Não sou brasileiro.": {
+  "file": "ea6b27ba2d55.mp3",
+  "voices": [
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Não tem nada aqui.": {
+  "file": "000bf6f9749e.mp3",
+  "voices": [
+   "Alnilam"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Não tem nada na geladeira.": {
+  "file": "4be0801c4c76.mp3",
+  "voices": [
+   "Erinome"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Não, não tô.": {
+  "file": "761e832f59c5.mp3",
+  "voices": [
+   "Laomedeia"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Não, não vai chover, não.": {
+  "file": "c192b82e2262.mp3",
+  "voices": [
+   "Zephyr"
   ],
   "model": "gemini-3.8-flash-tts"
  },
@@ -55,6 +461,20 @@
   ],
   "model": "gemini-3.8-flash-tts"
  },
+ "O café tá frio.": {
+  "file": "1d1dadad500f.mp3",
+  "voices": [
+   "Leda"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "O restaurante fica na esquina.": {
+  "file": "7cf98cd5d46b.mp3",
+  "voices": [
+   "Sadachbia"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
  "O senhor fala inglês?": {
   "file": "2047c54ffeed.mp3",
   "voices": [
@@ -62,10 +482,290 @@
   ],
   "model": "gemini-3.8-flash-tts"
  },
+ "Onde fica o banheiro?": {
+  "file": "fe68dc34a589.mp3",
+  "voices": [
+   "Callirrhoe"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Onde você tá?": {
+  "file": "bbd257fce219.mp3",
+  "voices": [
+   "Umbriel"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Prazer, eu sou a Ana.": {
+  "file": "7996bffe762e.mp3",
+  "voices": [
+   "Despina"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Sei não.": {
+  "file": "50496a87de27.mp3",
+  "voices": [
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Sou a Ana.": {
+  "file": "c69a7d00eae4.mp3",
+  "voices": [
+   "Sadachbia"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Sou brasileiro.": {
+  "file": "dfb80a7328d8.mp3",
+  "voices": [
+   "Erinome"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Sou casado.": {
+  "file": "bd604b1934ce.mp3",
+  "voices": [
+   "Leda"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Sou de São Paulo.": {
+  "file": "849416623c20.mp3",
+  "voices": [
+   "Callirrhoe"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Sou de Tóquio.": {
+  "file": "8e99fad5f14a.mp3",
+  "voices": [
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Sou de…": {
+  "file": "13cb53f0ace5.mp3",
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Sou do Brasil.": {
+  "file": "f2fc3817eaa3.mp3",
+  "voices": [
+   "Puck"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Sou do Japão.": {
+  "file": "d2edd0462071.mp3",
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Sou do…": {
+  "file": "32a0247da658.mp3",
+  "voices": [
+   "Umbriel"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Sou engenheiro.": {
+  "file": "1185b4fda14a.mp3",
+  "voices": [
+   "Iapetus"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Sou engenheiro. E você?": {
+  "file": "3c8375d999fa.mp3",
+  "voices": [
+   "Enceladus"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Sou estudante.": {
+  "file": "a25d45d7582a.mp3",
+  "voices": [
+   "Leda"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Sou japonês.": {
+  "file": "d87c1da7788c.mp3",
+  "voices": [
+   "Charon"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Sou, sim.": {
+  "file": "08573dc9daff.mp3",
+  "voices": [
+   "Fenrir"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Tudo bem, e você?": {
+  "file": "e607e6d51fd3.mp3",
+  "voices": [
+   "Fenrir"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Tudo bem?": {
+  "file": "03e5de8e4132.mp3",
+  "voices": [
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Tudo bom": {
+  "file": "771b06d7ed37.mp3",
+  "voices": [
+   "Leda"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Tudo bom, e você?": {
+  "file": "d565791814f2.mp3",
+  "voices": [
+   "Puck"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Tá bom.": {
+  "file": "5113e795c8a7.mp3",
+  "voices": [
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Tá frio hoje.": {
+  "file": "cdd7d77271cc.mp3",
+  "voices": [
+   "Leda"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Tá.": {
+  "file": "fa16dd182214.mp3",
+  "voices": [
+   "Orus"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Tô atrasado.": {
+  "file": "b7121e941a95.mp3",
+  "voices": [
+   "Erinome"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Tô bem.": {
+  "file": "75756ef033cd.mp3",
+  "voices": [
+   "Achernar"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Tô cansado.": {
+  "file": "e6d00533c453.mp3",
+  "voices": [
+   "Orus"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Tô com fome.": {
+  "file": "f0440a396fa3.mp3",
+  "voices": [
+   "Umbriel"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Tô com frio.": {
+  "file": "1671353aa121.mp3",
+  "voices": [
+   "Despina"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Tô em casa.": {
+  "file": "10c6063b3215.mp3",
+  "voices": [
+   "Callirrhoe"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Tô feliz.": {
+  "file": "c26155b6d121.mp3",
+  "voices": [
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Tô muito cansado.": {
+  "file": "fd46856659a5.mp3",
+  "voices": [
+   "Rasalgethi"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Tô no escritório agora.": {
+  "file": "3c51cbf6c13a.mp3",
+  "voices": [
+   "Pulcherrima"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Vi.": {
+  "file": "b3e7743364d0.mp3",
+  "voices": [
+   "Iapetus"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Você fala inglês.": {
+  "file": "a2345eb5bc9f.mp3",
+  "voices": [
+   "Pulcherrima"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
  "Você fala inglês?": {
   "file": "2a8004c8384c.mp3",
   "voices": [
    "Fenrir"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Você tá bonita hoje.": {
+  "file": "6e0ba9d17d17.mp3",
+  "voices": [
+   "Algenib"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Você é brasileiro.": {
+  "file": "28178937e4a0.mp3",
+  "voices": [
+   "Laomedeia"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Você é brasileiro?": {
+  "file": "f9f8e5ee8745.mp3",
+  "voices": [
+   "Laomedeia"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "Você é do Japão, né?": {
+  "file": "cded4481aa08.mp3",
+  "voices": [
+   "Achird"
   ],
   "model": "gemini-3.8-flash-tts"
  },
@@ -80,6 +780,13 @@
   "file": "28fab42c6ad6.mp3",
   "voices": [
    "Sadaltager"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "e você?": {
+  "file": "d6eee8792428.mp3",
+  "voices": [
+   "Orus"
   ],
   "model": "gemini-3.8-flash-tts"
  },
@@ -108,6 +815,13 @@
   "file": "fc4bc3ffc8e2.mp3",
   "voices": [
    "Schedar"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "está": {
+  "file": "2d10807a093b.mp3",
+  "voices": [
+   "Leda"
   ],
   "model": "gemini-3.8-flash-tts"
  },
@@ -153,6 +867,27 @@
   ],
   "model": "gemini-3.8-flash-tts"
  },
+ "somos": {
+  "file": "c19e8da9b76c.mp3",
+  "voices": [
+   "Algenib"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "sou": {
+  "file": "6e2aff1a7a38.mp3",
+  "voices": [
+   "Fenrir"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "são": {
+  "file": "561f2342c063.mp3",
+  "voices": [
+   "Sulafat"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
  "você": {
   "file": "4e55c9bfde76.mp3",
   "voices": [
@@ -167,11 +902,225 @@
   ],
   "model": "gemini-3.8-flash-tts"
  },
+ "É.": {
+  "file": "28a1afaf738e.mp3",
+  "voices": [
+   "Umbriel"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "é": {
+  "file": "bf15be717ac1.mp3",
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Como você tá? — Tô bem!": {
+  "file": "9724da27b595.mp3",
+  "voices": [
+   "Sadaltager",
+   "Autonoe"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— De onde você é? — Sou do Japão.": {
+  "file": "8969080768fa.mp3",
+  "voices": [
+   "Despina",
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Fala português? — Falo um pouco.": {
+  "file": "cb92d3122988.mp3",
+  "voices": [
+   "Algenib",
+   "Charon"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Muito prazer. — O prazer é meu.": {
+  "file": "00492ab40054.mp3",
+  "voices": [
+   "Fenrir",
+   "Aoede"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Oi, tudo bem? — Tudo bem, e você?": {
+  "file": "1d1d042086af.mp3",
+  "voices": [
+   "Gacrux",
+   "Autonoe"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Onde você tá? — Tô em casa.": {
+  "file": "28d34ab11047.mp3",
+  "voices": [
+   "Sadaltager",
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Tudo bem? — Tudo bem, sim.": {
+  "file": "d354f7266f78.mp3",
+  "voices": [
+   "Charon",
+   "Gacrux"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Vamos? — Tá bom.": {
+  "file": "b01abcd18dfe.mp3",
+  "voices": [
+   "Orus",
+   "Autonoe"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Você fala inglês? — Falo.": {
+  "file": "39241e8fb8c0.mp3",
+  "voices": [
+   "Rasalgethi",
+   "Enceladus"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Você fala inglês? — Não, não falo.": {
+  "file": "955b0959d45f.mp3",
+  "voices": [
+   "Sulafat",
+   "Erinome"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Você gosta de café? — Gosto, sim.": {
+  "file": "bc8b99de1862.mp3",
+  "voices": [
+   "Sulafat",
+   "Sadachbia"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Você gosta de café? — Gosto.": {
+  "file": "e493622f7763.mp3",
+  "voices": [
+   "Callirrhoe",
+   "Puck"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Você gosta de café? — Não, não gosto.": {
+  "file": "d14cd7e80c99.mp3",
+  "voices": [
+   "Enceladus",
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
  "— Você mora aqui? — Moro, sim.": {
   "file": "79c66ee4181f.mp3",
   "voices": [
    "Sulafat",
    "Autonoe"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Você sabe onde ela tá? — Sei não.": {
+  "file": "3ec04b77e87a.mp3",
+  "voices": [
+   "Zubenelgenubi",
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Você tá cansado? — Não, não tô.": {
+  "file": "c7b2da058b46.mp3",
+  "voices": [
+   "Fenrir",
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Você tá com fome? — Tô.": {
+  "file": "079c56b282f7.mp3",
+  "voices": [
+   "Achird",
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Você viu a Maria na festa? — Vi.": {
+  "file": "d2dd4b7f5b59.mp3",
+  "voices": [
+   "Fenrir",
+   "Rasalgethi"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Você é brasileiro? — Não, não sou.": {
+  "file": "2b267082f748.mp3",
+  "voices": [
+   "Orus",
+   "Achernar"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Você é brasileiro? — Não, sou japonês.": {
+  "file": "3e0fe6978cf5.mp3",
+  "voices": [
+   "Aoede",
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Você é casado? — Sou, sim.": {
+  "file": "3b6eb6cd1acb.mp3",
+  "voices": [
+   "Achernar",
+   "Algenib"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Você é casado? — Sou.": {
+  "file": "b19ed3f400c7.mp3",
+  "voices": [
+   "Kore",
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Você é do Japão, né? — Isso.": {
+  "file": "4f93f16fe9ae.mp3",
+  "voices": [
+   "Callirrhoe",
+   "Vindemiatrix"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Vocês são daqui? — Somos, sim.": {
+  "file": "4345c05bc8b4.mp3",
+  "voices": [
+   "Zubenelgenubi",
+   "Rasalgethi"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Vocês são daqui? — Somos.": {
+  "file": "63fe4a5a4448.mp3",
+  "voices": [
+   "Enceladus",
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts"
+ },
+ "— Vocês são irmãos? — Não, somos amigos.": {
+  "file": "07134e3a61cd.mp3",
+  "voices": [
+   "Leda",
+   "Sadachbia"
   ],
   "model": "gemini-3.8-flash-tts"
  }

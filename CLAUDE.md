@@ -33,7 +33,7 @@ When the owner gives new feedback about how lessons should be written, update th
 9. Regional variants worth knowing (e.g. Rio final /ʃ/) go in one line under the table.
 
 ## Audio (Brazilian Portuguese, ▶ buttons)
-- **Status: trial in 01-01 only (2026-11-08).** Once the owner approves, run it for every lesson and make it part of the checklist below.
+- **Every Portuguese text that has IPA gets audio** (owner approved 2026-11-08; all lessons have it). `tools/check.py` fails if any is missing.
 - `python3 tools/tts.py lessons/<file>.md` creates one mp3 per Portuguese text that has IPA and records it in `assets/audio/manifest.json`. Engine: **Gemini 3.8 Flash TTS** (`gemini-3.8-flash-tts` on Vertex AI, chosen 2026-11-08 by the owner over Chirp 3 HD), one of its 30 voices at random per clip; dialogues use its two-speaker mode with two random voices. Existing clips are reused (clips from another model are re-recorded); running it with no arguments does all lessons and deletes unused clips.
 - If the owner says a clip sounds wrong (e.g. a syllable is missing), re-record just that text: `python3 tools/tts.py --redo "<text>"` (new random voice). Glitches are occasional and per clip, not per voice. The owner does not want an automatic detector. The page adds the voice and model names as a query string, so the browser fetches the new file.
 - `assets/audio.js` adds a ▶ button after each IPA that has a clip. Its text-finding rules must stay in sync with `tools/tts.py`.
@@ -93,9 +93,10 @@ The layout adds the chapter label, goal box, sources/verification section, and p
 1. Take the next `planned` item in `_data/toc.yml` (or the one the owner names). 「次の章」 from the owner usually means the next item.
 2. Research (2+ sources per rule), look up IPA with `tools/ipa.py`.
 3. Write `lessons/<id>-<slug>.md` from the template.
+3a. `python3 tools/tts.py lessons/<file>.md` — record audio for the new lesson (see Audio).
 4. In `_data/toc.yml`, set that item's `status: published`.
 5. `python3 tools/readme.py` (regenerates README.md).
-6. `python3 tools/check.py` — **must print OK**. Fix everything it reports. (It checks front matter, sections, example markup, IPA after every italic Portuguese sentence, table width, and toc consistency. Passing it is necessary, not sufficient: also re-read the lesson for any Portuguese sentence lacking a translation.)
+6. `python3 tools/check.py` — **must print OK**. Fix everything it reports. (It checks front matter, sections, example markup, IPA after every italic Portuguese sentence, audio for every text with IPA, table width, and toc consistency. Passing it is necessary, not sufficient: also re-read the lesson for any Portuguese sentence lacking a translation.)
 7. Commit and push to `main` (the owner has asked for this to be done every time).
 8. Confirm publishing: `gh run list -R Ryoengineer112358/portuguese-grammar -L 1` should show a run for the new commit within ~30 s. If no run appears, push an empty commit (`git commit --allow-empty -m "Trigger Pages rebuild"`) — don't wait longer. Then `gh run watch <id>` and `curl` the lesson URL (add `?v=$RANDOM` to bypass cache) to confirm HTTP 200.
 9. Report to the owner in Japanese: what was added, key points, sources, verification status, open doubts, the URL.

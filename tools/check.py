@@ -2,7 +2,9 @@
 # Usage: python3 tools/check.py            (all lessons)
 #        python3 tools/check.py lessons/01-05-nao.md
 # Exit code 1 if anything fails. Run before every commit.
-import re, sys, glob, yaml
+import json, os, re, sys, glob, yaml
+sys.path.insert(0, os.path.dirname(__file__))
+from tts import texts_in, MANIFEST, AUDIO_DIR
 
 REQUIRED_SECTIONS = ['## In conversation', '## Watch out', '## Quick check']
 STATUSES = {'verified', 'source-checked', 'needs-check'}
@@ -62,6 +64,10 @@ def check(path, toc_ids):
                     continue  # wrong examples don't need IPA
                 if IPA not in rest:
                     errs.append(f'body line {n}: no IPA after *{sent}*')
+    audio = json.load(open(MANIFEST, encoding='utf-8')) if os.path.exists(MANIFEST) else {}
+    for text in texts_in(path):
+        if text not in audio or not os.path.exists(f'{AUDIO_DIR}/{audio[text]["file"]}'):
+            errs.append(f'no audio for "{text}" (run python3 tools/tts.py {path})')
     return [f'{path}: {e}' for e in errs]
 
 toc = yaml.safe_load(open('_data/toc.yml', encoding='utf-8'))

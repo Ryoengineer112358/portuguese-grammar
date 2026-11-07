@@ -94,39 +94,43 @@ def synth(parts, voices, project, token):
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', f'{d}/in.wav', '-b:a', '48k', f'{d}/out.mp3'], check=True)
         return open(f'{d}/out.mp3', 'rb').read()
 
-if sys.argv[1:2] == ['--redo']:
-    redo = norm(sys.argv[2])
-    sys.argv[1:] = [p for p in sorted(glob.glob('lessons/*.md')) if redo in texts_in(p)]
-    if not sys.argv[1:]:
-        sys.exit(f'not found in any lesson: {redo}')
-else:
-    redo = None
+def main():
+    if sys.argv[1:2] == ['--redo']:
+        redo = norm(sys.argv[2])
+        sys.argv[1:] = [p for p in sorted(glob.glob('lessons/*.md')) if redo in texts_in(p)]
+        if not sys.argv[1:]:
+            sys.exit(f'not found in any lesson: {redo}')
+    else:
+        redo = None
 
-paths = sys.argv[1:] or sorted(glob.glob('lessons/*.md'))
-os.makedirs(AUDIO_DIR, exist_ok=True)
-manifest = json.load(open(MANIFEST, encoding='utf-8')) if os.path.exists(MANIFEST) else {}
-project = token = None
-wanted = set()
-for p in paths:
-    for text in texts_in(p):
-        if text in wanted:
-            continue
-        wanted.add(text)
-        old = manifest.get(text)
-        if text != redo and old and old.get('model') == MODEL and os.path.exists(f'{AUDIO_DIR}/{old["file"]}'):
-            continue
-        project = project or env('GCP_PROJECT_ID')
-        token = token or subprocess.run(['gcloud', 'auth', 'print-access-token'], capture_output=True, text=True, check=True).stdout.strip()
-        parts = turns(text)
-        voices = random.sample(VOICES, min(len(parts), 2))
-        audio = synth(parts, voices, project, token)
-        name = hashlib.sha1(text.encode()).hexdigest()[:12] + '.mp3'
-        open(f'{AUDIO_DIR}/{name}', 'wb').write(audio)
-        manifest[text] = {'file': name, 'voices': voices, 'model': MODEL}
-        print(f'{name}  {"/".join(voices):24}  {text}')
-if not sys.argv[1:]:
-    for text in [t for t in manifest if t not in wanted]:
-        os.remove(f'{AUDIO_DIR}/{manifest.pop(text)["file"]}')
-        print(f'removed  {text}')
-json.dump(dict(sorted(manifest.items())), open(MANIFEST, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-print(f'{len(wanted)} text(s) in {len(paths)} lesson(s); manifest has {len(manifest)}')
+    paths = sys.argv[1:] or sorted(glob.glob('lessons/*.md'))
+    os.makedirs(AUDIO_DIR, exist_ok=True)
+    manifest = json.load(open(MANIFEST, encoding='utf-8')) if os.path.exists(MANIFEST) else {}
+    project = token = None
+    wanted = set()
+    for p in paths:
+        for text in texts_in(p):
+            if text in wanted:
+                continue
+            wanted.add(text)
+            old = manifest.get(text)
+            if text != redo and old and old.get('model') == MODEL and os.path.exists(f'{AUDIO_DIR}/{old["file"]}'):
+                continue
+            project = project or env('GCP_PROJECT_ID')
+            token = token or subprocess.run(['gcloud', 'auth', 'print-access-token'], capture_output=True, text=True, check=True).stdout.strip()
+            parts = turns(text)
+            voices = random.sample(VOICES, min(len(parts), 2))
+            audio = synth(parts, voices, project, token)
+            name = hashlib.sha1(text.encode()).hexdigest()[:12] + '.mp3'
+            open(f'{AUDIO_DIR}/{name}', 'wb').write(audio)
+            manifest[text] = {'file': name, 'voices': voices, 'model': MODEL}
+            print(f'{name}  {"/".join(voices):24}  {text}')
+    if not sys.argv[1:]:
+        for text in [t for t in manifest if t not in wanted]:
+            os.remove(f'{AUDIO_DIR}/{manifest.pop(text)["file"]}')
+            print(f'removed  {text}')
+    json.dump(dict(sorted(manifest.items())), open(MANIFEST, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    print(f'{len(wanted)} text(s) in {len(paths)} lesson(s); manifest has {len(manifest)}')
+
+if __name__ == '__main__':
+    main()
