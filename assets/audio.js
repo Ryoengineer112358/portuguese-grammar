@@ -24,7 +24,7 @@
     b.textContent = '▶';
     b.addEventListener('click', function () {
       player.pause();
-      player.src = base + entry.file;
+      player.src = base + entry.file + '?' + entry.voices.join('-');
       player.currentTime = 0;
       player.play();
     });

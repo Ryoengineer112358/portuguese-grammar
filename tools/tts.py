@@ -4,6 +4,7 @@
 #
 # Usage: python3 tools/tts.py lessons/01-01-subject-pronouns.md   (one lesson)
 #        python3 tools/tts.py                                     (all lessons; also prunes unused files)
+#        python3 tools/tts.py --redo "Vocês são daqui?"            (re-record one text with a new random voice)
 # Needs GOOGLE_TTS_API_KEY in the environment or in .env (git-ignored).
 #
 # What gets audio (must match assets/audio.js):
@@ -92,6 +93,14 @@ def join(clips, gap=0.5):
                         f'{pads}{seq}concat=n={len(clips)}:v=0:a=1', '-b:a', '48k', f'{d}/out.mp3'], check=True)
         return open(f'{d}/out.mp3', 'rb').read()
 
+if sys.argv[1:2] == ['--redo']:
+    redo = norm(sys.argv[2])
+    sys.argv[1:] = [p for p in sorted(glob.glob('lessons/*.md')) if redo in texts_in(p)]
+    if not sys.argv[1:]:
+        sys.exit(f'not found in any lesson: {redo}')
+else:
+    redo = None
+
 paths = sys.argv[1:] or sorted(glob.glob('lessons/*.md'))
 os.makedirs(AUDIO_DIR, exist_ok=True)
 manifest = json.load(open(MANIFEST, encoding='utf-8')) if os.path.exists(MANIFEST) else {}
@@ -100,7 +109,7 @@ wanted = set()
 for p in paths:
     for text in texts_in(p):
         wanted.add(text)
-        if text in manifest and os.path.exists(f'{AUDIO_DIR}/{manifest[text]["file"]}'):
+        if text != redo and text in manifest and os.path.exists(f'{AUDIO_DIR}/{manifest[text]["file"]}'):
             continue
         key = key or api_key()
         parts = turns(text)
