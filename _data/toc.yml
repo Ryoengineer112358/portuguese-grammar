@@ -16,7 +16,7 @@
     - { id: "01-03", title: "Estar (1): Tudo bem? / Estou bem", status: published }
     - { id: "01-04", title: "Ser vs. estar: the core distinction", status: published }
     - { id: "01-05", title: "Saying no: não", status: published }
-    - { id: "01-06", title: "Yes/no questions and short answers", status: planned }
+    - { id: "01-06", title: "Yes/no questions and short answers", status: published }
 
 - chapter: 2
   title: "Present Tense: Everyday Verbs"
