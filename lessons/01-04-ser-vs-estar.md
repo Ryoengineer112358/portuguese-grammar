@@ -40,7 +40,7 @@ sources:
 **Ser** says what someone or something **is** — identity and lasting characteristics.
 **Estar** says what condition someone or something is **in right now**.
 
-A useful test: *could this change in an hour?* If so, it's almost certainly *estar*.
+A useful test: **could this change in an hour?** If so, it's almost certainly *estar*.
 
 **Use *ser* for…**
 

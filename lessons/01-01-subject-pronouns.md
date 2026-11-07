@@ -62,7 +62,7 @@ Textbooks from Portugal teach *tu* for "you", with its own verb ending. In most 
 **3. *Vocês* takes the same verb as *eles/elas*.**
 So in practice, Brazilian speech mostly uses just four verb forms: one for *eu*, one shared by *você / ele / ela / a gente*, one for *nós*, and one shared by *vocês / eles / elas*.
 
-Here's that pattern with *falar* ("to speak") — you'll study the endings properly in Chapter 2:
+Here's that pattern with *falar* /faˈla(ʁ)/ ("to speak") — you'll study the endings properly in Chapter 2:
 
 | Who | Verb | IPA |
 |---|---|---|
@@ -89,22 +89,26 @@ Don't worry about the verbs yet — focus on who is speaking about whom.
 
 > **Mixed groups are masculine.** *Elas* is only for groups made up entirely of women. One man in a group of ten women makes it *eles*.
 
-> **Dropping the pronoun.** Since the *eu* and *nós* verb forms are unique, Brazilians often leave those pronouns out: *Moro aqui* ("I live here"), *Falamos inglês* ("We speak English"). With *você*, *ele*, *ela*, and *a gente*, the verb form alone is ambiguous, so the pronoun is usually kept. When in doubt, keep it — it's never wrong.
+> **Dropping the pronoun.** Since the *eu* and *nós* verb forms are unique, Brazilians often leave those pronouns out: *Moro aqui.* <span class="ipa">/ˈmɔ.ɾu aˈki/</span> ("I live here.") · *Falamos inglês.* <span class="ipa">/faˈlɐ̃.mus ĩˈɡle(j)s/</span> ("We speak English.") With *você*, *ele*, *ela*, and *a gente*, the verb form alone is ambiguous, so the pronoun is usually kept. When in doubt, keep it — it's never wrong.
 
-> **Being polite.** With older people, customers, or in formal settings, Brazilians often say *o senhor* /u sẽˈɲoʁ/ (to a man) and *a senhora* /a sẽˈɲɔ.ɾɐ/ (to a woman) instead of *você*. The verb form is the same as with *você*: *O senhor fala inglês?*
+> **Being polite.** With older people, customers, or in formal settings, Brazilians often say *o senhor* /u sẽˈɲoʁ/ (to a man) and *a senhora* /a sẽˈɲɔ.ɾɐ/ (to a woman) instead of *você*. The verb form is the same as with *você*: *O senhor fala inglês?* <span class="ipa">/u sẽˈɲoʁ ˈfa.lɐ ĩˈɡle(j)s/</span> ("Do you speak English, sir?")
 
 ## Quick check
 
 <details markdown="1">
 <summary>1. You're talking to one friend. How do you say "Do you speak English?"</summary>
 
-*Você fala inglês?*
+*Você fala inglês?* <span class="ipa">/voˈse ˈfa.lɐ ĩˈɡle(j)s/</span>
 </details>
 
 <details markdown="1">
 <summary>2. You and your friends are going to the beach. Give two ways to say "we."</summary>
 
-*A gente* (more common in speech) and *nós*. — *A gente vai à praia.* / *Nós vamos à praia.*
+*A gente* (more common in speech) and *nós*. Both mean "We're going to the beach":
+
+*A gente vai à praia.* <span class="ipa">/a ˈʒẽ.t͡ʃi ˈvaj a ˈpɾaj.ɐ/</span>
+
+*Nós vamos à praia.* <span class="ipa">/ˈnɔ(j)s ˈvɐ̃.mus a ˈpɾaj.ɐ/</span>
 </details>
 
 <details markdown="1">
