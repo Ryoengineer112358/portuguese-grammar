@@ -14,10 +14,16 @@
 #   - *X* <span class="ipa">  or  *X*<br><span class="ipa">  → X (bold markers removed)
 #   - table row whose last cell is /IPA/                     → the cell containing **bold**
 # Dialogues ("— A? — B.") use Gemini's two-speaker mode with two different random voices.
+# Each text gets <hash>.mp3 (natural) and <hash>-t.mp3 (textbook) with the same voice(s).
 import base64, glob, hashlib, json, os, random, re, subprocess, sys, tempfile, time, unicodedata, urllib.request
 
 MODEL = 'gemini-3.8-flash-tts'
+# Two recordings per text, same voice(s): natural (②, also played at 0.7x as ③ by audio.js) and textbook (①).
 STYLE = 'Brazilian Portuguese with a neutral Brazilian accent, as spoken in everyday conversation; natural pace, clearly articulated.'
+TEXTBOOK_STYLE = ('Brazilian Portuguese with a neutral Brazilian accent, read like a language teacher modelling textbook '
+                  'pronunciation for beginners: slowly and very crisply, every word pronounced fully and separately '
+                  'with a short pause between words, every syllable articulated; no reductions, contractions or '
+                  'linking (say "você", never "cê"; keep every vowel).')
 AUDIO_DIR = 'assets/audio'
 MANIFEST = f'{AUDIO_DIR}/manifest.json'
 VOICES = [
@@ -64,13 +70,13 @@ def env(name):
             return line.split('=', 1)[1].strip().strip('"\'')
     sys.exit(f'{name} not set (environment or .env)')
 
-def synth(parts, voices, project, token):
+def synth(parts, voices, project, token, style):
     if len(parts) == 1:
-        contents = [{'text': parts[0], 'speechMetadata': {'style': STYLE}}]
+        contents = [{'text': parts[0], 'speechMetadata': {'style': style}}]
         speech = {'voiceConfig': {'voice': voices[0]}}
     else:  # two speakers, alternating turns
         names = ['A', 'B']
-        contents = [{'text': t, 'speechMetadata': {'speaker': names[i % 2], 'style': STYLE}} for i, t in enumerate(parts)]
+        contents = [{'text': t, 'speechMetadata': {'speaker': names[i % 2], 'style': style}} for i, t in enumerate(parts)]
         speech = {'multiSpeakerVoiceConfig': {'speakerVoiceConfigs': [
             {'speaker': n, 'voiceConfig': {'voice': v}} for n, v in zip(names, voices)]}}
     req = urllib.request.Request(
@@ -94,6 +100,10 @@ def synth(parts, voices, project, token):
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', f'{d}/in.wav', '-b:a', '48k', f'{d}/out.mp3'], check=True)
         return open(f'{d}/out.mp3', 'rb').read()
 
+def auth(project, token):
+    return (project or env('GCP_PROJECT_ID'),
+            token or subprocess.run(['gcloud', 'auth', 'print-access-token'], capture_output=True, text=True, check=True).stdout.strip())
+
 def main():
     if sys.argv[1:2] == ['--redo']:
         redo = norm(sys.argv[2])
@@ -113,21 +123,27 @@ def main():
             if text in wanted:
                 continue
             wanted.add(text)
-            old = manifest.get(text)
-            if text != redo and old and old.get('model') == MODEL and os.path.exists(f'{AUDIO_DIR}/{old["file"]}'):
-                continue
-            project = project or env('GCP_PROJECT_ID')
-            token = token or subprocess.run(['gcloud', 'auth', 'print-access-token'], capture_output=True, text=True, check=True).stdout.strip()
-            parts = turns(text)
-            voices = random.sample(VOICES, min(len(parts), 2))
-            audio = synth(parts, voices, project, token)
-            name = hashlib.sha1(text.encode()).hexdigest()[:12] + '.mp3'
-            open(f'{AUDIO_DIR}/{name}', 'wb').write(audio)
-            manifest[text] = {'file': name, 'voices': voices, 'model': MODEL}
-            print(f'{name}  {"/".join(voices):24}  {text}')
+            entry = manifest.get(text)
+            if text == redo or not entry or entry.get('model') != MODEL or not os.path.exists(f'{AUDIO_DIR}/{entry["file"]}'):
+                parts = turns(text)
+                entry = {'file': hashlib.sha1(text.encode()).hexdigest()[:12] + '.mp3',
+                         'voices': random.sample(VOICES, min(len(parts), 2)), 'model': MODEL}
+                project, token = auth(project, token)
+                open(f'{AUDIO_DIR}/{entry["file"]}', 'wb').write(synth(parts, entry['voices'], project, token, STYLE))
+                manifest[text] = entry
+                print(f'{entry["file"]}    {"/".join(entry["voices"]):24}  {text}')
+            if not entry.get('textbook') or not os.path.exists(f'{AUDIO_DIR}/{entry["textbook"]}'):
+                project, token = auth(project, token)
+                tb = entry['file'].replace('.mp3', '-t.mp3')
+                open(f'{AUDIO_DIR}/{tb}', 'wb').write(synth(turns(text), entry['voices'], project, token, TEXTBOOK_STYLE))
+                entry['textbook'] = tb
+                print(f'{tb}  {"/".join(entry["voices"]):24}  {text}')
     if not sys.argv[1:]:
         for text in [t for t in manifest if t not in wanted]:
-            os.remove(f'{AUDIO_DIR}/{manifest.pop(text)["file"]}')
+            entry = manifest.pop(text)
+            for f in [entry['file'], entry.get('textbook')]:
+                if f and os.path.exists(f'{AUDIO_DIR}/{f}'):
+                    os.remove(f'{AUDIO_DIR}/{f}')
             print(f'removed  {text}')
     json.dump(dict(sorted(manifest.items())), open(MANIFEST, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(f'{len(wanted)} text(s) in {len(paths)} lesson(s); manifest has {len(manifest)}')

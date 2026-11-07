@@ -66,7 +66,8 @@ def check(path, toc_ids):
                     errs.append(f'body line {n}: no IPA after *{sent}*')
     audio = json.load(open(MANIFEST, encoding='utf-8')) if os.path.exists(MANIFEST) else {}
     for text in texts_in(path):
-        if text not in audio or not os.path.exists(f'{AUDIO_DIR}/{audio[text]["file"]}'):
+        e = audio.get(text, {})
+        if not all(e.get(k) and os.path.exists(f'{AUDIO_DIR}/{e[k]}') for k in ['file', 'textbook']):
             errs.append(f'no audio for "{text}" (run python3 tools/tts.py {path})')
     return [f'{path}: {e}' for e in errs]
 
