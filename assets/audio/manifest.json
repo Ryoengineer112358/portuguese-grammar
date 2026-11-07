@@ -1,0 +1,153 @@
+{
+ "A gente vai amanhã.": {
+  "file": "a6d0eba12741.mp3",
+  "voices": [
+   "Kore"
+  ]
+ },
+ "A gente vai à praia.": {
+  "file": "60cb564794b9.mp3",
+  "voices": [
+   "Achird"
+  ]
+ },
+ "Ela é minha amiga.": {
+  "file": "97f7c2c731ff.mp3",
+  "voices": [
+   "Zephyr"
+  ]
+ },
+ "Eles moram em São Paulo.": {
+  "file": "45f5267cfeeb.mp3",
+  "voices": [
+   "Sadachbia"
+  ]
+ },
+ "Eu sou do Japão.": {
+  "file": "c9b882e823b6.mp3",
+  "voices": [
+   "Sulafat"
+  ]
+ },
+ "Falamos inglês.": {
+  "file": "bbd4aa783079.mp3",
+  "voices": [
+   "Kore"
+  ]
+ },
+ "Moro aqui.": {
+  "file": "8464c4338071.mp3",
+  "voices": [
+   "Erinome"
+  ]
+ },
+ "Nós vamos à praia.": {
+  "file": "eb46c9b85fe5.mp3",
+  "voices": [
+   "Gacrux"
+  ]
+ },
+ "O senhor fala inglês?": {
+  "file": "2047c54ffeed.mp3",
+  "voices": [
+   "Sadachbia"
+  ]
+ },
+ "Você fala inglês?": {
+  "file": "2a8004c8384c.mp3",
+  "voices": [
+   "Enceladus"
+  ]
+ },
+ "Vocês são daqui?": {
+  "file": "9274b3a47c38.mp3",
+  "voices": [
+   "Aoede"
+  ]
+ },
+ "a gente": {
+  "file": "28fab42c6ad6.mp3",
+  "voices": [
+   "Sadaltager"
+  ]
+ },
+ "ela": {
+  "file": "b0fdbed76d70.mp3",
+  "voices": [
+   "Vindemiatrix"
+  ]
+ },
+ "elas": {
+  "file": "68158022ea88.mp3",
+  "voices": [
+   "Enceladus"
+  ]
+ },
+ "ele": {
+  "file": "9d4799a1ea1b.mp3",
+  "voices": [
+   "Callirrhoe"
+  ]
+ },
+ "eles": {
+  "file": "fc4bc3ffc8e2.mp3",
+  "voices": [
+   "Alnilam"
+  ]
+ },
+ "eu": {
+  "file": "608e01334f55.mp3",
+  "voices": [
+   "Sadaltager"
+  ]
+ },
+ "fala": {
+  "file": "a752d6baccaf.mp3",
+  "voices": [
+   "Erinome"
+  ]
+ },
+ "falam": {
+  "file": "5ef7dc61ff37.mp3",
+  "voices": [
+   "Sulafat"
+  ]
+ },
+ "falamos": {
+  "file": "158e3213e469.mp3",
+  "voices": [
+   "Gacrux"
+  ]
+ },
+ "falo": {
+  "file": "a939963602c2.mp3",
+  "voices": [
+   "Fenrir"
+  ]
+ },
+ "nós": {
+  "file": "c39248cd10c9.mp3",
+  "voices": [
+   "Sulafat"
+  ]
+ },
+ "você": {
+  "file": "4e55c9bfde76.mp3",
+  "voices": [
+   "Sadachbia"
+  ]
+ },
+ "vocês": {
+  "file": "11f81007b307.mp3",
+  "voices": [
+   "Vindemiatrix"
+  ]
+ },
+ "— Você mora aqui? — Moro, sim.": {
+  "file": "79c66ee4181f.mp3",
+  "voices": [
+   "Zephyr",
+   "Laomedeia"
+  ]
+ }
+}

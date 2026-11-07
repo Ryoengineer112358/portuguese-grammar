@@ -32,6 +32,13 @@ When the owner gives new feedback about how lessons should be written, update th
 8. If Wiktionary has no IPA for a form (common for inflected verbs, articles), derive it by analogy from a related entry and **name every derived word in `note`**.
 9. Regional variants worth knowing (e.g. Rio final /ʃ/) go in one line under the table.
 
+## Audio (Brazilian Portuguese, ▶ buttons)
+- **Status: trial in 01-01 only (2026-11-08).** Once the owner approves, run it for every lesson and make it part of the checklist below.
+- `python3 tools/tts.py lessons/<file>.md` creates one mp3 per Portuguese text that has IPA (Google Cloud TTS, pt-BR Chirp3-HD voices, a random voice per clip; dialogues get a different voice per turn, joined with a short pause by ffmpeg) and records it in `assets/audio/manifest.json`. Existing clips are reused; running it with no arguments does all lessons and deletes unused clips.
+- `assets/audio.js` adds a ▶ button after each IPA that has a clip. Its text-finding rules must stay in sync with `tools/tts.py`.
+- The API key is `GOOGLE_TTS_API_KEY` in `.env` (git-ignored; copied from `~/Developer/personal/anki-vocab-app/.env.local`). Never commit it.
+- The owner does not want a note saying the audio is synthesized. Don't add one.
+
 ## Layout rules (phone first)
 - Tables have **at most 3 columns**. If you need more, split into two tables.
 - Examples in `## In conversation` use exactly this markup, one `<li>` per line:

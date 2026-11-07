@@ -62,6 +62,8 @@ blockquote p { margin: 0.3em 0; }
 .ex .pt { font-weight: 600; display: block; }
 .ipa { font-size: 0.9em; color: var(--accent); font-family: "Charis SIL", "Doulos SIL", "Gentium Plus", "Noto Sans", "Lucida Grande", sans-serif; }
 .ex .ipa { display: block; }
+.play { margin-left: .35em; padding: 0 .45em; font-size: .8em; line-height: 1.6; vertical-align: .1em; color: var(--accent); background: transparent; border: 1px solid currentColor; border-radius: 999px; cursor: pointer; }
+.play:hover { background: var(--accent); color: var(--bg, #fff); }
 .ex .en { color: var(--muted); display: block; }
 
 details { margin: 0.8em 0; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; }
