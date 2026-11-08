@@ -14,7 +14,8 @@
 #   - *X* <span class="ipa">  or  *X*<br><span class="ipa">  → X (bold markers removed)
 #   - table row whose last cell is /IPA/                     → the cell containing **bold**
 # Dialogues ("— A? — B.") use Gemini's two-speaker mode with two different random voices.
-# Each text gets <hash>.mp3 (natural) and <hash>-t.mp3 (textbook) with the same voice(s).
+# Each text gets <hash>.mp3 (natural) and <hash>-t.mp3 (textbook) with the same voice(s);
+# a word (single word, or an entry in a word table such as "a gente") gets only the textbook one.
 import base64, glob, hashlib, json, os, random, re, subprocess, sys, tempfile, time, unicodedata, urllib.request
 
 MODEL = 'gemini-3.8-flash-tts'
@@ -37,8 +38,8 @@ def norm(s):
     s = unicodedata.normalize('NFC', s).replace('’', "'")
     return re.sub(r'\s+', ' ', s).strip()
 
-def texts_in(path):
-    out = []
+def texts_in(path, words_only=False):
+    out, words = [], []
     body = open(path, encoding='utf-8').read().split('\n---\n', 1)[1]
     for line in body.split('\n'):
         if line.startswith('|') and re.search(r'\|\s*/[^|]+/\s*\|\s*$', line):
@@ -46,6 +47,7 @@ def texts_in(path):
             bold = [c for c in cells if '**' in c]
             if bold:
                 out.append(bold[-1].replace('**', ''))
+                words.append(out[-1])
             continue
         for m in re.finditer(r'<span class="ipa">', line):
             before = line[:m.start()]
@@ -56,7 +58,12 @@ def texts_in(path):
             it = re.search(r'\*([^*]+)\*\s*(<br>)?\s*$', before.replace('**', ''))
             if it:
                 out.append(it.group(1))
+    if words_only:  # table entries and single words: word-level audio
+        return {norm(t) for t in words} | {norm(t) for t in out if is_single_word(norm(t))}
     return [norm(t) for t in out]
+
+def is_single_word(text):
+    return ' ' not in text
 
 def turns(text):
     parts = [p.strip() for p in re.split(r'(?:^|\s)—\s', text) if p.strip()]
@@ -118,30 +125,36 @@ def main():
     manifest = json.load(open(MANIFEST, encoding='utf-8')) if os.path.exists(MANIFEST) else {}
     project = token = None
     wanted = set()
+    word_level = set().union(*(texts_in(p, words_only=True) for p in paths))
     for p in paths:
         for text in texts_in(p):
             if text in wanted:
                 continue
             wanted.add(text)
             entry = manifest.get(text)
-            if text == redo or not entry or entry.get('model') != MODEL or not os.path.exists(f'{AUDIO_DIR}/{entry["file"]}'):
-                parts = turns(text)
-                entry = {'file': hashlib.sha1(text.encode()).hexdigest()[:12] + '.mp3',
-                         'voices': random.sample(VOICES, min(len(parts), 2)), 'model': MODEL}
+            fresh = text == redo or not entry or entry.get('model') != MODEL
+            if fresh:
+                entry = manifest[text] = {'voices': random.sample(VOICES, min(len(turns(text)), 2)), 'model': MODEL}
+            h = hashlib.sha1(text.encode()).hexdigest()[:12]
+            if text in word_level:  # a word only needs the careful recording (played at 1x and 0.5x)
+                if entry.get('file'):
+                    if os.path.exists(f'{AUDIO_DIR}/{entry["file"]}'):
+                        os.remove(f'{AUDIO_DIR}/{entry["file"]}')
+                    del entry['file']
+            elif not entry.get('file') or not os.path.exists(f'{AUDIO_DIR}/{entry["file"]}'):
                 project, token = auth(project, token)
-                open(f'{AUDIO_DIR}/{entry["file"]}', 'wb').write(synth(parts, entry['voices'], project, token, STYLE))
-                manifest[text] = entry
+                entry['file'] = f'{h}.mp3'
+                open(f'{AUDIO_DIR}/{entry["file"]}', 'wb').write(synth(turns(text), entry['voices'], project, token, STYLE))
                 print(f'{entry["file"]}    {"/".join(entry["voices"]):24}  {text}')
-            if not entry.get('textbook') or not os.path.exists(f'{AUDIO_DIR}/{entry["textbook"]}'):
+            if fresh or not entry.get('textbook') or not os.path.exists(f'{AUDIO_DIR}/{entry["textbook"]}'):
                 project, token = auth(project, token)
-                tb = entry['file'].replace('.mp3', '-t.mp3')
-                open(f'{AUDIO_DIR}/{tb}', 'wb').write(synth(turns(text), entry['voices'], project, token, TEXTBOOK_STYLE))
-                entry['textbook'] = tb
-                print(f'{tb}  {"/".join(entry["voices"]):24}  {text}')
+                entry['textbook'] = f'{h}-t.mp3'
+                open(f'{AUDIO_DIR}/{entry["textbook"]}', 'wb').write(synth(turns(text), entry['voices'], project, token, TEXTBOOK_STYLE))
+                print(f'{entry["textbook"]}  {"/".join(entry["voices"]):24}  {text}')
     if not sys.argv[1:]:
         for text in [t for t in manifest if t not in wanted]:
             entry = manifest.pop(text)
-            for f in [entry['file'], entry.get('textbook')]:
+            for f in [entry.get('file'), entry.get('textbook')]:
                 if f and os.path.exists(f'{AUDIO_DIR}/{f}'):
                     os.remove(f'{AUDIO_DIR}/{f}')
             print(f'removed  {text}')

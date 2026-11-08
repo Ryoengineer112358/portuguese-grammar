@@ -264,7 +264,6 @@
   "textbook": "959e3ddebb09-t.mp3"
  },
  "Estou": {
-  "file": "199b17a96139.mp3",
   "voices": [
    "Zubenelgenubi"
   ],
@@ -384,7 +383,6 @@
   "textbook": "e109ebbdfc80-t.mp3"
  },
  "Gosto.": {
-  "file": "6ad446f398d1.mp3",
   "voices": [
    "Aoede"
   ],
@@ -400,7 +398,6 @@
   "textbook": "83321b18bc8a-t.mp3"
  },
  "Isso.": {
-  "file": "68125990f361.mp3",
   "voices": [
    "Algenib"
   ],
@@ -744,7 +741,6 @@
   "textbook": "cdd7d77271cc-t.mp3"
  },
  "Tá.": {
-  "file": "fa16dd182214.mp3",
   "voices": [
    "Orus"
   ],
@@ -824,7 +820,6 @@
   "textbook": "3c51cbf6c13a-t.mp3"
  },
  "Vi.": {
-  "file": "b3e7743364d0.mp3",
   "voices": [
    "Iapetus"
   ],
@@ -888,7 +883,6 @@
   "textbook": "9274b3a47c38-t.mp3"
  },
  "a gente": {
-  "file": "28fab42c6ad6.mp3",
   "voices": [
    "Sadaltager"
   ],
@@ -904,7 +898,6 @@
   "textbook": "d6eee8792428-t.mp3"
  },
  "ela": {
-  "file": "b0fdbed76d70.mp3",
   "voices": [
    "Despina"
   ],
@@ -912,7 +905,6 @@
   "textbook": "b0fdbed76d70-t.mp3"
  },
  "elas": {
-  "file": "68158022ea88.mp3",
   "voices": [
    "Fenrir"
   ],
@@ -920,7 +912,6 @@
   "textbook": "68158022ea88-t.mp3"
  },
  "ele": {
-  "file": "9d4799a1ea1b.mp3",
   "voices": [
    "Gacrux"
   ],
@@ -928,7 +919,6 @@
   "textbook": "9d4799a1ea1b-t.mp3"
  },
  "eles": {
-  "file": "fc4bc3ffc8e2.mp3",
   "voices": [
    "Schedar"
   ],
@@ -936,7 +926,6 @@
   "textbook": "fc4bc3ffc8e2-t.mp3"
  },
  "está": {
-  "file": "2d10807a093b.mp3",
   "voices": [
    "Leda"
   ],
@@ -944,7 +933,6 @@
   "textbook": "2d10807a093b-t.mp3"
  },
  "eu": {
-  "file": "608e01334f55.mp3",
   "voices": [
    "Laomedeia"
   ],
@@ -952,7 +940,6 @@
   "textbook": "608e01334f55-t.mp3"
  },
  "fala": {
-  "file": "a752d6baccaf.mp3",
   "voices": [
    "Vindemiatrix"
   ],
@@ -960,7 +947,6 @@
   "textbook": "a752d6baccaf-t.mp3"
  },
  "falam": {
-  "file": "5ef7dc61ff37.mp3",
   "voices": [
    "Achernar"
   ],
@@ -968,7 +954,6 @@
   "textbook": "5ef7dc61ff37-t.mp3"
  },
  "falamos": {
-  "file": "158e3213e469.mp3",
   "voices": [
    "Laomedeia"
   ],
@@ -976,7 +961,6 @@
   "textbook": "158e3213e469-t.mp3"
  },
  "falo": {
-  "file": "a939963602c2.mp3",
   "voices": [
    "Algieba"
   ],
@@ -984,7 +968,6 @@
   "textbook": "a939963602c2-t.mp3"
  },
  "nós": {
-  "file": "c39248cd10c9.mp3",
   "voices": [
    "Leda"
   ],
@@ -992,7 +975,6 @@
   "textbook": "c39248cd10c9-t.mp3"
  },
  "somos": {
-  "file": "c19e8da9b76c.mp3",
   "voices": [
    "Algenib"
   ],
@@ -1000,7 +982,6 @@
   "textbook": "c19e8da9b76c-t.mp3"
  },
  "sou": {
-  "file": "6e2aff1a7a38.mp3",
   "voices": [
    "Fenrir"
   ],
@@ -1008,7 +989,6 @@
   "textbook": "6e2aff1a7a38-t.mp3"
  },
  "são": {
-  "file": "561f2342c063.mp3",
   "voices": [
    "Sulafat"
   ],
@@ -1016,7 +996,6 @@
   "textbook": "561f2342c063-t.mp3"
  },
  "você": {
-  "file": "4e55c9bfde76.mp3",
   "voices": [
    "Gacrux"
   ],
@@ -1024,7 +1003,6 @@
   "textbook": "4e55c9bfde76-t.mp3"
  },
  "vocês": {
-  "file": "11f81007b307.mp3",
   "voices": [
    "Puck"
   ],
@@ -1032,7 +1010,6 @@
   "textbook": "11f81007b307-t.mp3"
  },
  "É.": {
-  "file": "28a1afaf738e.mp3",
   "voices": [
    "Umbriel"
   ],
@@ -1040,7 +1017,6 @@
   "textbook": "28a1afaf738e-t.mp3"
  },
  "é": {
-  "file": "bf15be717ac1.mp3",
   "voices": [
    "Zubenelgenubi"
   ],

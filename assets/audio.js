@@ -31,14 +31,18 @@
     var version = entry.voices.join('-') + '-' + (entry.model || '');
     var group = document.createElement('span');
     group.className = 'play-group';
-    [['📖', 'Textbook', entry.textbook, 1], ['▶', 'Natural', entry.file, 1], ['🐢', 'Slow', entry.file, 0.5]].forEach(function (b) {
+    // A word has only the textbook recording: 📖 at normal speed and 🐢 at 0.5x.
+    var buttons = entry.file
+      ? [['📖', 'Textbook', entry.textbook, 1], ['▶', 'Natural', entry.file, 1], ['🐢', 'Slow', entry.file, 0.5]]
+      : [['📖', 'Textbook', entry.textbook, 1], ['🐢', 'Slow', entry.textbook, 0.5]];
+    buttons.forEach(function (b) {
       if (!b[2]) return;
       var btn = document.createElement('button');
       btn.className = 'play';
       btn.type = 'button';
-      btn.innerHTML = '<span class="play-icon">' + b[0] + '</span><span class="play-label"> ' + b[1] + '</span>';
-      btn.title = b[1];
-      btn.setAttribute('aria-label', 'Play ' + b[1].toLowerCase() + ' audio');
+      btn.innerHTML = '<span class="play-icon">' + b[0] + '</span>' + (b[1] ? '<span class="play-label"> ' + b[1] + '</span>' : '');
+      btn.title = b[1] || 'Play';
+      btn.setAttribute('aria-label', 'Play ' + (b[1] ? b[1].toLowerCase() + ' ' : '') + 'audio');
       btn.addEventListener('click', function () { play(b[2], b[3], version); });
       group.appendChild(btn);
     });

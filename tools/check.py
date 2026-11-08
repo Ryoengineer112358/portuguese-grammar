@@ -65,9 +65,11 @@ def check(path, toc_ids):
                 if IPA not in rest:
                     errs.append(f'body line {n}: no IPA after *{sent}*')
     audio = json.load(open(MANIFEST, encoding='utf-8')) if os.path.exists(MANIFEST) else {}
+    word_level = texts_in(path, words_only=True)
     for text in texts_in(path):
         e = audio.get(text, {})
-        if not all(e.get(k) and os.path.exists(f'{AUDIO_DIR}/{e[k]}') for k in ['file', 'textbook']):
+        keys = ['textbook'] if text in word_level else ['file', 'textbook']
+        if not all(e.get(k) and os.path.exists(f'{AUDIO_DIR}/{e[k]}') for k in keys):
             errs.append(f'no audio for "{text}" (run python3 tools/tts.py {path})')
     return [f'{path}: {e}' for e in errs]
 
