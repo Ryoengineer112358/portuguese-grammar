@@ -170,8 +170,8 @@
     - { id: "17-5", title: "Connected Speech" }
     - { id: "17-6", title: "Regional Variation and Pitfalls" }
   items:
-    - { id: "17-1-1", part: "17-1", title: "The big picture: how Brazilian Portuguese sounds", status: planned }
-    - { id: "17-1-2", part: "17-1", title: "Spelling and sound: the regular correspondences", status: planned }
+    - { id: "17-1-1", part: "17-1", title: "The big picture: how Brazilian Portuguese sounds", status: published }
+    - { id: "17-1-2", part: "17-1", title: "Spelling and sound: the regular correspondences", status: published }
     - { id: "17-2-1", part: "17-2", title: "The seven stressed vowels: open é/ó vs. closed ê/ô", status: planned }
     - { id: "17-2-2", part: "17-2", title: "Unstressed vowels: final -e → /i/, final -o → /u/", status: planned }
     - { id: "17-2-3", part: "17-2", title: "Vowel raising before the stress: menino, bonito", status: planned }

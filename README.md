@@ -23,3 +23,5 @@
 - [**15. The Subjunctive (Essentials)**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-15)
 - [**16. Conditionals and Compound Tenses**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-16)
 - [**17. Sounds of Brazilian Portuguese**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-17)
+  - [17-1-1 The big picture: how Brazilian Portuguese sounds](https://ryoengineer112358.github.io/portuguese-grammar/lessons/17-1-1/)
+  - [17-1-2 Spelling and sound: the regular correspondences](https://ryoengineer112358.github.io/portuguese-grammar/lessons/17-1-2/)
