@@ -18,7 +18,7 @@
 import base64, glob, hashlib, json, os, random, re, subprocess, sys, tempfile, time, unicodedata, urllib.request
 
 MODEL = 'gemini-3.8-flash-tts'
-# Two recordings per text, same voice(s): natural (②, also played at 0.7x as ③ by audio.js) and textbook (①).
+# Two recordings per text, same voice(s): natural (②, also played at 0.5x as ③ by audio.js) and textbook (①).
 STYLE = 'Brazilian Portuguese with a neutral Brazilian accent, as spoken in everyday conversation; natural pace, clearly articulated.'
 TEXTBOOK_STYLE = ('Brazilian Portuguese with a neutral Brazilian accent, read like a language teacher modelling textbook '
                   'pronunciation for beginners: slowly and very crisply, every word pronounced fully and separately '

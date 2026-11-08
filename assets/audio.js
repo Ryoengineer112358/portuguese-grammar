@@ -24,14 +24,14 @@
     player.play();
   }
 
-  // ① Textbook (careful recording) · ② Natural · ③ Slow (the natural recording at 0.7x)
+  // ① Textbook (careful recording) · ② Natural · ③ Slow (the natural recording at 0.5x)
   function addButton(target, text, manifest) {
     var entry = manifest[norm(text)];
     if (!entry) return;
     var version = entry.voices.join('-') + '-' + (entry.model || '');
     var group = document.createElement('span');
     group.className = 'play-group';
-    [['📖', 'Textbook', entry.textbook, 1], ['▶', 'Natural', entry.file, 1], ['🐢', 'Slow', entry.file, 0.7]].forEach(function (b) {
+    [['📖', 'Textbook', entry.textbook, 1], ['▶', 'Natural', entry.file, 1], ['🐢', 'Slow', entry.file, 0.5]].forEach(function (b) {
       if (!b[2]) return;
       var btn = document.createElement('button');
       btn.className = 'play';
