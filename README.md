@@ -22,4 +22,4 @@
 - [**14. Reflexive Verbs and Ficar**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-14)
 - [**15. The Subjunctive (Essentials)**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-15)
 - [**16. Conditionals and Compound Tenses**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-16)
-- [**17. Sounds and Spelling**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-17)
+- [**17. Sounds of Brazilian Portuguese**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-17)

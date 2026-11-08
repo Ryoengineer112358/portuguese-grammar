@@ -103,6 +103,12 @@ The layout adds the chapter label, goal box, sources/verification section, and p
 8. Confirm publishing: `gh run list -R Ryoengineer112358/portuguese-grammar -L 1` should show a run for the new commit within ~30 s. If no run appears, push an empty commit (`git commit --allow-empty -m "Trigger Pages rebuild"`) — don't wait longer. Then `gh run watch <id>` and `curl` the lesson URL (add `?v=$RANDOM` to bypass cache) to confirm HTTP 200.
 9. Report to the owner in Japanese: what was added, key points, sources, verification status, open doubts, the URL.
 
+## Chapter 17 (sounds)
+- Chapter 17 is a reference chapter (33 items, outline agreed 2026-11-08). The owner writes grammar in order with 「次の項目作って」; Chapter 17 items are written only when the owner names them (e.g. 「17-29作って」). 「次の項目」 means the next planned grammar item, skipping Chapter 17.
+- Don't make grammar lessons depend on Chapter 17; the owner doesn't want pronunciation detail to slow grammar down.
+- The outline was drafted from general knowledge; verify each item with 2+ sources when writing (planned: Cristófaro Silva, *Fonética e Fonologia do Português*; Barbosa & Albano 2004, JIPA "Brazilian Portuguese"; Mattoso Câmara, *Estrutura da Língua Portuguesa*; Wikipedia "Portuguese phonology"; USP sandhi studies). Merge or split items if the sources suggest it.
+- Use the three audio versions to contrast careful vs. natural speech.
+
 ## Changing the plan
 - `_data/toc.yml` is the master plan. Lesson IDs (`CC-II`) never change after publication.
 - To add a lesson inside a chapter, give it the next unused number in that chapter and place it where it belongs in the list; list order is reading order.
