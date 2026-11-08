@@ -16,7 +16,11 @@ title: Contents
     <h2><span class="ch-num">{{ ch.chapter }}</span> {{ ch.title }}</h2>
     <p class="ch-summary">{{ ch.summary }}</p>
     <ol class="toc-items">
+    {% assign last_part = nil %}
     {% for it in ch.items %}
+      {% if it.part and it.part != last_part %}{% assign last_part = it.part %}{% assign part = ch.parts | where: "id", it.part | first %}
+      <li class="toc-part" id="part-{{ part.id }}"><span class="item-id">{{ part.id }}</span> {{ part.title }}</li>
+      {% endif %}
       {% if it.status == "published" %}
       <li class="published"><a href="{{ '/lessons/' | append: it.id | append: '/' | relative_url }}"><span class="item-id">{{ it.id }}</span> {{ it.title }}</a></li>
       {% else %}

@@ -162,37 +162,44 @@
 - chapter: 17
   title: "Sounds of Brazilian Portuguese"
   summary: "Reference chapter, read any time: vowels, consonants, stress, intonation, connected speech, short forms, and regional accents."
+  parts:
+    - { id: "17-1", title: "Overview" }
+    - { id: "17-2", title: "Vowels" }
+    - { id: "17-3", title: "Consonants" }
+    - { id: "17-4", title: "Stress, Rhythm and Intonation" }
+    - { id: "17-5", title: "Connected Speech" }
+    - { id: "17-6", title: "Regional Variation and Pitfalls" }
   items:
-    - { id: "17-01", title: "The big picture: how Brazilian Portuguese sounds", status: planned }
-    - { id: "17-02", title: "Spelling and sound: the regular correspondences", status: planned }
-    - { id: "17-03", title: "The seven stressed vowels: open é/ó vs. closed ê/ô", status: planned }
-    - { id: "17-04", title: "Unstressed vowels: final -e → /i/, final -o → /u/", status: planned }
-    - { id: "17-05", title: "Vowel raising before the stress: menino, bonito", status: planned }
-    - { id: "17-06", title: "Oral diphthongs: ai, ei, oi, ou, eu, au", status: planned }
-    - { id: "17-07", title: "Nasal vowels: ã, ẽ, ĩ, õ, ũ", status: planned }
-    - { id: "17-08", title: "Nasal diphthongs: -ão, -ãe, -õe, -em, muito", status: planned }
-    - { id: "17-09", title: "t and d before /i/: tia, dia", status: planned }
-    - { id: "17-10", title: "Syllable-final l → /w/: Brasil, mal = mau", status: planned }
-    - { id: "17-11", title: "The r sounds: tap vs. strong r (caro vs. carro)", status: planned }
-    - { id: "17-12", title: "Syllable-final r: regional variants and dropping", status: planned }
-    - { id: "17-13", title: "s, z and x", status: planned }
-    - { id: "17-14", title: "lh and nh", status: planned }
-    - { id: "17-15", title: "Extra vowels between consonants: advogado, pneu", status: planned }
-    - { id: "17-16", title: "Word stress: the default rules and accent marks", status: planned }
-    - { id: "17-17", title: "Unstressed function words: o, a, de, que, se, me", status: planned }
-    - { id: "17-18", title: "Rhythm: how a Brazilian sentence flows", status: planned }
-    - { id: "17-19", title: "Intonation 1: statements and yes/no questions", status: planned }
-    - { id: "17-20", title: "Intonation 2: wh-questions, lists, and né?", status: planned }
-    - { id: "17-21", title: "Intonation 3: emphasis, surprise, and politeness", status: planned }
-    - { id: "17-22", title: "Vowel meets vowel 1: merging identical vowels", status: planned }
-    - { id: "17-23", title: "Vowel meets vowel 2: dropping and gliding (de onde → donde)", status: planned }
-    - { id: "17-24", title: "s and z across words: os amigos", status: planned }
-    - { id: "17-25", title: "r and nasal sounds across words", status: planned }
-    - { id: "17-26", title: "Simplified diphthongs: pouco, primeiro", status: planned }
-    - { id: "17-27", title: "Added glides: mas → mais, três → treis, nós → nóis", status: planned }
-    - { id: "17-28", title: "Dropped sounds: final r, -ndo → -no, devoiced final vowels", status: planned }
-    - { id: "17-29", title: "Spoken short forms 1: tô, tá, tava, tamo", status: planned }
-    - { id: "17-30", title: "Spoken short forms 2: pra, pro, cê, num, ó, brigado, bora", status: planned }
-    - { id: "17-31", title: "Accents at a glance: Rio, São Paulo, Minas, Northeast, South", status: planned }
-    - { id: "17-32", title: "Brazilian vs. European Portuguese: what you'll hear in apps", status: planned }
-    - { id: "17-33", title: "Pitfalls for Japanese speakers: r/l, nasal vowels, ão vs. ã", status: planned }
+    - { id: "17-1-1", part: "17-1", title: "The big picture: how Brazilian Portuguese sounds", status: planned }
+    - { id: "17-1-2", part: "17-1", title: "Spelling and sound: the regular correspondences", status: planned }
+    - { id: "17-2-1", part: "17-2", title: "The seven stressed vowels: open é/ó vs. closed ê/ô", status: planned }
+    - { id: "17-2-2", part: "17-2", title: "Unstressed vowels: final -e → /i/, final -o → /u/", status: planned }
+    - { id: "17-2-3", part: "17-2", title: "Vowel raising before the stress: menino, bonito", status: planned }
+    - { id: "17-2-4", part: "17-2", title: "Oral diphthongs: ai, ei, oi, ou, eu, au", status: planned }
+    - { id: "17-2-5", part: "17-2", title: "Nasal vowels: ã, ẽ, ĩ, õ, ũ", status: planned }
+    - { id: "17-2-6", part: "17-2", title: "Nasal diphthongs: -ão, -ãe, -õe, -em, muito", status: planned }
+    - { id: "17-3-1", part: "17-3", title: "t and d before /i/: tia, dia", status: planned }
+    - { id: "17-3-2", part: "17-3", title: "Syllable-final l → /w/: Brasil, mal = mau", status: planned }
+    - { id: "17-3-3", part: "17-3", title: "The r sounds: tap vs. strong r (caro vs. carro)", status: planned }
+    - { id: "17-3-4", part: "17-3", title: "Syllable-final r: regional variants and dropping", status: planned }
+    - { id: "17-3-5", part: "17-3", title: "s, z and x", status: planned }
+    - { id: "17-3-6", part: "17-3", title: "lh and nh", status: planned }
+    - { id: "17-3-7", part: "17-3", title: "Extra vowels between consonants: advogado, pneu", status: planned }
+    - { id: "17-4-1", part: "17-4", title: "Word stress: the default rules and accent marks", status: planned }
+    - { id: "17-4-2", part: "17-4", title: "Unstressed function words: o, a, de, que, se, me", status: planned }
+    - { id: "17-4-3", part: "17-4", title: "Rhythm: how a Brazilian sentence flows", status: planned }
+    - { id: "17-4-4", part: "17-4", title: "Intonation 1: statements and yes/no questions", status: planned }
+    - { id: "17-4-5", part: "17-4", title: "Intonation 2: wh-questions, lists, and né?", status: planned }
+    - { id: "17-4-6", part: "17-4", title: "Intonation 3: emphasis, surprise, and politeness", status: planned }
+    - { id: "17-5-1", part: "17-5", title: "Vowel meets vowel 1: merging identical vowels", status: planned }
+    - { id: "17-5-2", part: "17-5", title: "Vowel meets vowel 2: dropping and gliding (de onde → donde)", status: planned }
+    - { id: "17-5-3", part: "17-5", title: "s and z across words: os amigos", status: planned }
+    - { id: "17-5-4", part: "17-5", title: "r and nasal sounds across words", status: planned }
+    - { id: "17-5-5", part: "17-5", title: "Simplified diphthongs: pouco, primeiro", status: planned }
+    - { id: "17-5-6", part: "17-5", title: "Added glides: mas → mais, três → treis, nós → nóis", status: planned }
+    - { id: "17-5-7", part: "17-5", title: "Dropped sounds: final r, -ndo → -no, devoiced final vowels", status: planned }
+    - { id: "17-5-8", part: "17-5", title: "Spoken short forms 1: tô, tá, tava, tamo", status: planned }
+    - { id: "17-5-9", part: "17-5", title: "Spoken short forms 2: pra, pro, cê, num, ó, brigado, bora", status: planned }
+    - { id: "17-6-1", part: "17-6", title: "Accents at a glance: Rio, São Paulo, Minas, Northeast, South", status: planned }
+    - { id: "17-6-2", part: "17-6", title: "Brazilian vs. European Portuguese: what you'll hear in apps", status: planned }
+    - { id: "17-6-3", part: "17-6", title: "Pitfalls for Japanese speakers: r/l, nasal vowels, ão vs. ã", status: planned }

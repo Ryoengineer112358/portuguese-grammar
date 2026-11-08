@@ -83,6 +83,8 @@ summary { cursor: pointer; font-weight: 600; }
 .toc-items { list-style: none; padding: 0; margin: 0; }
 .toc-items li { padding: 5px 0; border-bottom: 1px solid var(--line); }
 .toc-items .planned { color: var(--muted); }
+.toc-items .toc-part { margin-top: .8em; padding: 4px 0; font-weight: 700; color: var(--fg); border-bottom: 2px solid var(--line); }
+.toc-items .toc-part .item-id { color: var(--accent); }
 .item-id { font-variant-numeric: tabular-nums; font-size: 13px; color: var(--muted); margin-right: 6px; }
 .toc-items .published a { text-decoration: none; font-weight: 600; }
 .toc-items .published::after { content: " ✓"; color: var(--accent); }

@@ -78,7 +78,7 @@ paths = sys.argv[1:] or sorted(glob.glob('lessons/*.md'))
 errors = []
 for p in paths:
     errors += check(p, toc_ids)
-files = {re.match(r'lessons/(\d\d-\d\d)', p).group(1) for p in glob.glob('lessons/*.md')}
+files = {re.match(r'lessons/(\d\d-\d\d|\d\d-\d+-\d+)(?=-[a-z])', p).group(1) for p in glob.glob('lessons/*.md')}
 for lid in sorted(published - files):
     errors.append(f'_data/toc.yml: {lid} is published but has no lesson file')
 for lid in sorted(files - published):

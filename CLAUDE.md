@@ -104,7 +104,7 @@ The layout adds the chapter label, goal box, sources/verification section, and p
 9. Report to the owner in Japanese: what was added, key points, sources, verification status, open doubts, the URL.
 
 ## Chapter 17 (sounds)
-- Chapter 17 is a reference chapter (33 items, outline agreed 2026-11-08). The owner writes grammar in order with 「次の項目作って」; Chapter 17 items are written only when the owner names them (e.g. 「17-29作って」). 「次の項目」 means the next planned grammar item, skipping Chapter 17.
+- Chapter 17 is a reference chapter (33 items, outline agreed 2026-11-08), split into parts 17-1 … 17-6 (`parts:` in toc.yml; each item has `part:`). Its lesson IDs are `17-P-N` (e.g. `17-5-8`, file `lessons/17-5-8-<slug>.md`, permalink `/lessons/17-5-8/`); all other chapters keep `CC-II`. The owner writes grammar in order with 「次の項目作って」; Chapter 17 items are written only when the owner names them (e.g. 「17-5-8作って」). 「次の項目」 means the next planned grammar item, skipping Chapter 17.
 - Don't make grammar lessons depend on Chapter 17; the owner doesn't want pronunciation detail to slow grammar down.
 - The outline was drafted from general knowledge; verify each item with 2+ sources when writing (planned: Cristófaro Silva, *Fonética e Fonologia do Português*; Barbosa & Albano 2004, JIPA "Brazilian Portuguese"; Mattoso Câmara, *Estrutura da Língua Portuguesa*; Wikipedia "Portuguese phonology"; USP sandhi studies). Merge or split items if the sources suggest it.
 - Use the three audio versions to contrast careful vs. natural speech.

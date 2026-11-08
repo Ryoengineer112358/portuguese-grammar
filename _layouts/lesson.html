@@ -13,6 +13,7 @@ layout: default
 <article class="lesson">
   <p class="lesson-meta">
     Chapter {{ chapter.chapter }} · {{ chapter.title }}<br>
+    {% assign this_item = chapter.items | where: "id", page.lesson_id | first %}{% if this_item.part %}{% assign part = chapter.parts | where: "id", this_item.part | first %}Part {{ part.id }} · {{ part.title }}<br>{% endif %}
     Lesson {{ page.lesson_id }} · about 5 minutes
   </p>
   <h1>{{ page.title }}</h1>
