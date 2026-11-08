@@ -51,17 +51,17 @@ The IPA is identical in each row: the only difference is the rising intonation, 
 
 **2. Answer "yes" by repeating the verb — in your own form.** Brazilians rarely answer with a bare *sim* /ˈsĩ/ ("yes"). Instead, they repeat the verb from the question, changed to fit the person answering. A question with *você* gets an answer in the *eu* form:
 
-- *— Você gosta de café? — Gosto.* <span class="ipa">/voˈse ˈɡɔs.tɐ d͡ʒi kaˈfɛ/ — /ˈɡos.tu/</span> — "Do you like coffee?" "I do."
+- *— Você gosta de café? — Gosto.* <span class="ipa">/voˈse ˈɡɔs.tɐ d͡ʒi kaˈfɛ/ — /ˈɡɔs.tu/</span> — "Do you like coffee?" "I do."
 - *— Você é casado? — Sou.* <span class="ipa">/voˈse ˈɛ kaˈza.du/ — /ˈso(w)/</span> — "Are you married?" "I am."
 - *— Vocês são daqui? — Somos.* <span class="ipa">/voˈse(j)s ˈsɐ̃w̃ daˈki/ — /ˈsõ.mus/</span> — "Are you (all) from here?" "We are."
 
 To say "no," put *não* before the same verb, usually with an extra *Não,* in front (lesson 01-05):
 
-- *— Você gosta de café? — Não, não gosto.* <span class="ipa">/voˈse ˈɡɔs.tɐ d͡ʒi kaˈfɛ/ — /ˈnɐ̃w̃ ˈnɐ̃w̃ ˈɡos.tu/</span> — "Do you like coffee?" "No, I don't."
+- *— Você gosta de café? — Não, não gosto.* <span class="ipa">/voˈse ˈɡɔs.tɐ d͡ʒi kaˈfɛ/ — /ˈnɐ̃w̃ ˈnɐ̃w̃ ˈɡɔs.tu/</span> — "Do you like coffee?" "No, I don't."
 
 *Sim* is perfectly correct; it's just less common in casual speech. Its most natural spot is **after** the repeated verb, where it adds warmth or emphasis — much like English "Yes, I do!":
 
-- *Gosto, sim.* <span class="ipa">/ˈɡos.tu ˈsĩ/</span> — I do, yes.
+- *Gosto, sim.* <span class="ipa">/ˈɡɔs.tu ˈsĩ/</span> — I do, yes.
 - *Sou, sim.* <span class="ipa">/ˈso(w) ˈsĩ/</span> — Yes, I am.
 
 **3. "Right?" — *né*.** To check something you think is true, add *né* /ˈnɛ/ to the end of a statement. It's the spoken short form of *não é* /ˈnɐ̃w̃ ˈɛ/ ("isn't it?") and never changes, whatever the verb or person:
@@ -76,7 +76,7 @@ To confirm, you can repeat the verb (*Sou.*), or say *Isso.* <span class="ipa">/
   <li><span class="pt">— Você tá com fome? — Tô.</span><span class="ipa">/voˈse ˈta kõ ˈfõ.mi/ — /ˈto/</span><span class="en">"Are you hungry?" "Yes."</span></li>
   <li><span class="pt">— Fala português? — Falo um pouco.</span><span class="ipa">/ˈfa.lɐ poʁ.tuˈɡe(j)s/ — /ˈfa.lu ũ ˈpo(w).ku/</span><span class="en">"Do you speak Portuguese?" "A little."</span></li>
   <li><span class="pt">— Tudo bem? — Tudo bem, sim.</span><span class="ipa">/ˈtu.du ˈbẽj̃/ — /ˈtu.du ˈbẽj̃ ˈsĩ/</span><span class="en">"Everything OK?" "Yes, everything's fine."</span></li>
-  <li><span class="pt">— Você gosta de café? — Gosto, sim.</span><span class="ipa">/voˈse ˈɡɔs.tɐ d͡ʒi kaˈfɛ/ — /ˈɡos.tu ˈsĩ/</span><span class="en">"Do you like coffee?" "Yes, I do."</span></li>
+  <li><span class="pt">— Você gosta de café? — Gosto, sim.</span><span class="ipa">/voˈse ˈɡɔs.tɐ d͡ʒi kaˈfɛ/ — /ˈɡɔs.tu ˈsĩ/</span><span class="en">"Do you like coffee?" "Yes, I do."</span></li>
   <li><span class="pt">— Vocês são daqui? — Somos, sim.</span><span class="ipa">/voˈse(j)s ˈsɐ̃w̃ daˈki/ — /ˈsõ.mus ˈsĩ/</span><span class="en">"Are you (all) from around here?" "Yes, we are."</span></li>
   <li><span class="pt">— Você viu a Maria na festa? — Vi.</span><span class="ipa">/voˈse ˈviw a maˈɾi.ɐ na ˈfɛs.tɐ/ — /ˈvi/</span><span class="en">"Did you see Maria at the party?" "I did."</span></li>
   <li><span class="pt">— Você é do Japão, né? — Isso.</span><span class="ipa">/voˈse ˈɛ du ʒaˈpɐ̃w̃ ˈnɛ/ — /ˈi.su/</span><span class="en">"You're from Japan, right?" "That's right."</span></li>
@@ -104,7 +104,7 @@ To confirm, you can repeat the verb (*Sou.*), or say *Isso.* <span class="ipa">/
 <details markdown="1">
 <summary>2. Someone asks <em>Você gosta de café?</em> Answer "Yes, I do" the Brazilian way.</summary>
 
-*Gosto.* <span class="ipa">/ˈɡos.tu/</span> or, warmer, *Gosto, sim.* <span class="ipa">/ˈɡos.tu ˈsĩ/</span> — "I do, yes."
+*Gosto.* <span class="ipa">/ˈɡɔs.tu/</span> or, warmer, *Gosto, sim.* <span class="ipa">/ˈɡɔs.tu ˈsĩ/</span> — "I do, yes."
 </details>
 
 <details markdown="1">

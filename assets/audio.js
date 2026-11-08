@@ -53,6 +53,11 @@
     document.querySelectorAll('.content .ipa').forEach(function (ipa) {
       var p = prevElement(ipa);
       if (p && (p.nodeName === 'EM' || p.classList.contains('pt'))) addButton(ipa, p.textContent, manifest);
+      else if (p && p.nodeName === 'STRONG' && ipa.parentNode.nodeName === 'TD') {  // form table: **estou**<br>IPA
+        var text = '';
+        for (var n = ipa.parentNode.firstChild; n !== ipa; n = n.nextSibling) text += n.textContent;
+        addButton(ipa, text, manifest);
+      }
     });
     document.querySelectorAll('.content td').forEach(function (td) {
       if (!/^\/.*\/$/.test(td.textContent.trim())) return;

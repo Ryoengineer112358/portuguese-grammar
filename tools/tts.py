@@ -13,6 +13,7 @@
 #   - <span class="pt">X</span><span class="ipa">          → X
 #   - *X* <span class="ipa">  or  *X*<br><span class="ipa">  → X (bold markers removed)
 #   - table row whose last cell is /IPA/                     → the cell containing **bold**
+#   - table cell **X**<br><span class="ipa">                → X (a word, e.g. a verb form)
 # Dialogues ("— A? — B.") use Gemini's two-speaker mode with two different random voices.
 # Each text gets <hash>.mp3 (natural) and <hash>-t.mp3 (textbook) with the same voice(s);
 # a word (single word, or an entry in a word table such as "a gente") gets only the textbook one.
@@ -58,6 +59,11 @@ def texts_in(path, words_only=False):
             it = re.search(r'\*([^*]+)\*\s*(<br>)?\s*$', before.replace('**', ''))
             if it:
                 out.append(it.group(1))
+                continue
+            cell = before.rsplit('|', 1)[-1]
+            if line.startswith('|') and re.search(r'\*\*\s*(<br>)?\s*$', cell):  # form table: **estou**<br>IPA
+                out.append(cell.replace('**', '').replace('<br>', ''))
+                words.append(out[-1])
     if words_only:  # table entries and single words: word-level audio
         return {norm(t) for t in words} | {norm(t) for t in out if is_single_word(norm(t))}
     return [norm(t) for t in out]
