@@ -23,6 +23,38 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "53f051a9959c-t.mp3"
  },
+ "A gente bebe café.": {
+  "voices": [
+   "Fenrir"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "c6378430f849.mp3",
+  "textbook": "c6378430f849-t.mp3"
+ },
+ "A gente bebe muito café.": {
+  "voices": [
+   "Despina"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "351c31c7f2e8.mp3",
+  "textbook": "351c31c7f2e8-t.mp3"
+ },
+ "A gente come fora no fim de semana.": {
+  "voices": [
+   "Despina"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "16295b5798be.mp3",
+  "textbook": "16295b5798be-t.mp3"
+ },
+ "A gente come.": {
+  "voices": [
+   "Iapetus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "70feba0e6276.mp3",
+  "textbook": "70feba0e6276-t.mp3"
+ },
  "A gente fala português.": {
   "voices": [
    "Alnilam"
@@ -173,6 +205,14 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "9371f2b4d96c-t.mp3"
+ },
+ "Ela escreve muito bem.": {
+  "voices": [
+   "Callirrhoe"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "d4ed7b092790.mp3",
+  "textbook": "d4ed7b092790-t.mp3"
  },
  "Ela fala muito rápido.": {
   "voices": [
@@ -342,6 +382,21 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "959e3ddebb09-t.mp3"
  },
+ "Eles vendem pão de queijo ali.": {
+  "voices": [
+   "Sadaltager"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "b3022762cf56.mp3",
+  "textbook": "b3022762cf56-t.mp3"
+ },
+ "Entendo.": {
+  "voices": [
+   "Sadachbia"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "ab2a4bf019e5-t.mp3"
+ },
  "Estou": {
   "voices": [
    "Zubenelgenubi"
@@ -372,6 +427,14 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "b36994067cb9-t.mp3"
+ },
+ "Eu não como carne.": {
+  "voices": [
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "09f881a2308f.mp3",
+  "textbook": "09f881a2308f-t.mp3"
  },
  "Eu não falo espanhol.": {
   "file": "b33b7a33b75f.mp3",
@@ -626,6 +689,14 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "c192b82e2262-t.mp3"
+ },
+ "Nós comemos.": {
+  "voices": [
+   "Sadaltager"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "db56e87b2e96.mp3",
+  "textbook": "db56e87b2e96-t.mp3"
  },
  "Nós vamos à praia.": {
   "file": "eb46c9b85fe5.mp3",
@@ -1015,6 +1086,22 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "b3e7743364d0-t.mp3"
  },
+ "Você aprende rápido!": {
+  "voices": [
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "ff0bb016d7e0.mp3",
+  "textbook": "ff0bb016d7e0-t.mp3"
+ },
+ "Você entende?": {
+  "voices": [
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "eb1a987c5c09.mp3",
+  "textbook": "eb1a987c5c09-t.mp3"
+ },
  "Você está com fome?": {
   "voices": [
    "Aoede"
@@ -1108,6 +1195,34 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "eaaed76be9ce-t.mp3"
  },
+ "bebe": {
+  "voices": [
+   "Puck"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "b6204a75b33a-t.mp3"
+ },
+ "bebem": {
+  "voices": [
+   "Iapetus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "5352f86e5128-t.mp3"
+ },
+ "bebemos": {
+  "voices": [
+   "Iapetus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "e7d726ccc280-t.mp3"
+ },
+ "bebo": {
+  "voices": [
+   "Sadaltager"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "e0b0bcfbe095-t.mp3"
+ },
  "cabeça": {
   "voices": [
    "Aoede"
@@ -1157,6 +1272,34 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "dca6ea9ae4aa-t.mp3"
  },
+ "come": {
+  "voices": [
+   "Achernar"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "d88d473b374e-t.mp3"
+ },
+ "comem": {
+  "voices": [
+   "Erinome"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "059d4fea9ec6-t.mp3"
+ },
+ "comemos": {
+  "voices": [
+   "Alnilam"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "84146d14d3e8-t.mp3"
+ },
+ "como": {
+  "voices": [
+   "Callirrhoe"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "ef70a17048f2-t.mp3"
+ },
  "copo": {
   "voices": [
    "Iapetus"
@@ -1199,6 +1342,34 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "fc4bc3ffc8e2-t.mp3"
+ },
+ "entende": {
+  "voices": [
+   "Orus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "9d05b3c20776-t.mp3"
+ },
+ "entendem": {
+  "voices": [
+   "Aoede"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "0a8fba516aa6-t.mp3"
+ },
+ "entendemos": {
+  "voices": [
+   "Kore"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "70dbfe278edd-t.mp3"
+ },
+ "entendo": {
+  "voices": [
+   "Vindemiatrix"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "a8c083daeee8-t.mp3"
  },
  "estamos": {
   "voices": [
@@ -1603,6 +1774,24 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "b01abcd18dfe-t.mp3"
  },
+ "— Você bebe café? — Bebo, sim.": {
+  "voices": [
+   "Leda",
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "802436c6989b.mp3",
+  "textbook": "802436c6989b-t.mp3"
+ },
+ "— Você entende? — Entendo, mais ou menos.": {
+  "voices": [
+   "Zephyr",
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "0938948204bd.mp3",
+  "textbook": "0938948204bd-t.mp3"
+ },
  "— Você estuda ou trabalha? — Trabalho.": {
   "voices": [
    "Schedar",
@@ -1746,6 +1935,15 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "4f93f16fe9ae-t.mp3"
+ },
+ "— Vocês comem peixe? — Comemos.": {
+  "voices": [
+   "Erinome",
+   "Umbriel"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "868ec50efd1c.mp3",
+  "textbook": "868ec50efd1c-t.mp3"
  },
  "— Vocês falam inglês? — Falamos, sim.": {
   "voices": [
