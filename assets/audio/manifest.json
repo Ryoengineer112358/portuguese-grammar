@@ -71,6 +71,14 @@
   "file": "bc083e98c2a2.mp3",
   "textbook": "bc083e98c2a2-t.mp3"
  },
+ "A gente gosta muito daqui.": {
+  "voices": [
+   "Charon"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "4dd0d6df8c0d.mp3",
+  "textbook": "4dd0d6df8c0d-t.mp3"
+ },
  "A gente mora aqui.": {
   "voices": [
    "Erinome"
@@ -142,6 +150,38 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "6f79ccb2231c-t.mp3"
+ },
+ "Adoro café.": {
+  "voices": [
+   "Sadaltager"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "bec5ef42bb3c.mp3",
+  "textbook": "bec5ef42bb3c-t.mp3"
+ },
+ "Adoro essa música!": {
+  "voices": [
+   "Enceladus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "a51f87576f05.mp3",
+  "textbook": "a51f87576f05-t.mp3"
+ },
+ "Adoro música brasileira.": {
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "79717b7ed338.mp3",
+  "textbook": "79717b7ed338-t.mp3"
+ },
+ "Adoro viajar.": {
+  "voices": [
+   "Despina"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "434df4c5b130.mp3",
+  "textbook": "434df4c5b130-t.mp3"
  },
  "Amanhã vou na festa.": {
   "voices": [
@@ -292,6 +332,14 @@
   "model": "gemini-3.8-flash-tts",
   "file": "58d758350dfe.mp3",
   "textbook": "58d758350dfe-t.mp3"
+ },
+ "Ela não gosta de acordar cedo.": {
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "89c2424757d6.mp3",
+  "textbook": "89c2424757d6-t.mp3"
  },
  "Ela não tá em casa agora.": {
   "file": "03474e95f840.mp3",
@@ -445,6 +493,14 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "59176e241fe2-t.mp3"
  },
+ "Eles gostam de sair à noite.": {
+  "voices": [
+   "Enceladus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "3ace5d86c96e.mp3",
+  "textbook": "3ace5d86c96e-t.mp3"
+ },
  "Eles moram em São Paulo.": {
   "file": "45f5267cfeeb.mp3",
   "voices": [
@@ -554,6 +610,30 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "b36994067cb9-t.mp3"
+ },
+ "Eu gosto de café.": {
+  "voices": [
+   "Umbriel"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "6667c420115f.mp3",
+  "textbook": "6667c420115f-t.mp3"
+ },
+ "Eu gosto de gatos.": {
+  "voices": [
+   "Algenib"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "5a1d448c7b6e.mp3",
+  "textbook": "5a1d448c7b6e-t.mp3"
+ },
+ "Eu gosto muito de viajar.": {
+  "voices": [
+   "Despina"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "0368d01bb6fa.mp3",
+  "textbook": "0368d01bb6fa-t.mp3"
  },
  "Eu não como carne.": {
   "voices": [
@@ -715,6 +795,46 @@
   "file": "21fdba886330.mp3",
   "textbook": "21fdba886330-t.mp3"
  },
+ "Gosto da praia.": {
+  "voices": [
+   "Puck"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "6f018b7b068d.mp3",
+  "textbook": "6f018b7b068d-t.mp3"
+ },
+ "Gosto de café.": {
+  "voices": [
+   "Despina"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "acb60d26af83.mp3",
+  "textbook": "acb60d26af83-t.mp3"
+ },
+ "Gosto de viajar.": {
+  "voices": [
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "a73dcd6f68c3.mp3",
+  "textbook": "a73dcd6f68c3-t.mp3"
+ },
+ "Gosto muito de viajar.": {
+  "voices": [
+   "Erinome"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "ed67736c5e5a.mp3",
+  "textbook": "ed67736c5e5a-t.mp3"
+ },
+ "Gosto muito!": {
+  "voices": [
+   "Callirrhoe"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "7c732a2540a7.mp3",
+  "textbook": "7c732a2540a7-t.mp3"
+ },
  "Gosto, sim.": {
   "file": "e109ebbdfc80.mp3",
   "voices": [
@@ -817,6 +937,14 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "e61aeea7cc24-t.mp3"
  },
+ "Não gosto de acordar cedo.": {
+  "voices": [
+   "Puck"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "4b14da48fe4f.mp3",
+  "textbook": "4b14da48fe4f-t.mp3"
+ },
  "Não gosto de café.": {
   "file": "76f505bc5bce.mp3",
   "voices": [
@@ -824,6 +952,14 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "76f505bc5bce-t.mp3"
+ },
+ "Não gosto disso, não.": {
+  "voices": [
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "4083a6376547.mp3",
+  "textbook": "4083a6376547-t.mp3"
  },
  "Não posso falar agora.": {
   "voices": [
@@ -1508,6 +1644,14 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "2a8004c8384c-t.mp3"
  },
+ "Você gosta de música?": {
+  "voices": [
+   "Enceladus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "d3551e5ff86d.mp3",
+  "textbook": "d3551e5ff86d-t.mp3"
+ },
  "Você pode me ajudar?": {
   "voices": [
    "Algenib"
@@ -1832,6 +1976,41 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "8effcb86ae05-t.mp3"
+ },
+ "da": {
+  "voices": [
+   "Pulcherrima"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "cdd4f8740950-t.mp3"
+ },
+ "daqui": {
+  "voices": [
+   "Sulafat"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "73bc72c7ab6a-t.mp3"
+ },
+ "disso": {
+  "voices": [
+   "Schedar"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "0acd6a50b33f-t.mp3"
+ },
+ "do": {
+  "voices": [
+   "Schedar"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "eadcd9bd2a09-t.mp3"
+ },
+ "dos / das": {
+  "voices": [
+   "Orus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "895b0625ec22-t.mp3"
  },
  "e você?": {
   "file": "d6eee8792428.mp3",
@@ -2530,6 +2709,15 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "955b0959d45f-t.mp3"
  },
+ "— Você gosta da comida brasileira? — Gosto, sim!": {
+  "voices": [
+   "Fenrir",
+   "Gacrux"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "f2cc9510640a.mp3",
+  "textbook": "f2cc9510640a-t.mp3"
+ },
  "— Você gosta de café? — Gosto, sim.": {
   "file": "bc8b99de1862.mp3",
   "voices": [
@@ -2556,6 +2744,24 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "d14cd7e80c99-t.mp3"
+ },
+ "— Você gosta de chocolate? — Gosto!": {
+  "voices": [
+   "Puck",
+   "Rasalgethi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "815b55332db5.mp3",
+  "textbook": "815b55332db5-t.mp3"
+ },
+ "— Você gosta de futebol? — Adoro!": {
+  "voices": [
+   "Zubenelgenubi",
+   "Fenrir"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "336b5cf5ae95.mp3",
+  "textbook": "336b5cf5ae95-t.mp3"
  },
  "— Você mora aqui? — Moro, sim.": {
   "file": "79c66ee4181f.mp3",
