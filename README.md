@@ -10,6 +10,7 @@
 - [**2. Present Tense: Everyday Verbs**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-2)
   - [02-01 Regular -ar verbs: falar, morar, trabalhar](https://ryoengineer112358.github.io/portuguese-grammar/lessons/02-01/)
   - [02-02 Regular -er verbs: comer, beber, entender](https://ryoengineer112358.github.io/portuguese-grammar/lessons/02-02/)
+  - [02-03 Regular -ir verbs: abrir, partir, assistir](https://ryoengineer112358.github.io/portuguese-grammar/lessons/02-03/)
 - [**3. Nouns and Articles**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-3)
 - [**4. Asking Questions**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-4)
 - [**5. Plans and the Future**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-5)

@@ -24,7 +24,7 @@
   items:
     - { id: "02-01", title: "Regular -ar verbs: falar, morar, trabalhar", status: published }
     - { id: "02-02", title: "Regular -er verbs: comer, beber, entender", status: published }
-    - { id: "02-03", title: "Regular -ir verbs: abrir, partir, assistir", status: planned }
+    - { id: "02-03", title: "Regular -ir verbs: abrir, partir, assistir", status: published }
     - { id: "02-04", title: "Ter: to have (and 'there is')", status: planned }
     - { id: "02-05", title: "Ir: to go", status: planned }
     - { id: "02-06", title: "Querer and poder: want and can", status: planned }

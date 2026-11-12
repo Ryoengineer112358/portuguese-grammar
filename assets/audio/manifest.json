@@ -55,6 +55,14 @@
   "file": "70feba0e6276.mp3",
   "textbook": "70feba0e6276-t.mp3"
  },
+ "A gente divide a conta?": {
+  "voices": [
+   "Autonoe"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "3b7db9f9f8c1.mp3",
+  "textbook": "3b7db9f9f8c1-t.mp3"
+ },
  "A gente fala português.": {
   "voices": [
    "Alnilam"
@@ -103,6 +111,14 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "60cb564794b9-t.mp3"
  },
+ "A loja abre às nove.": {
+  "voices": [
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "921f9e966cbe.mp3",
+  "textbook": "921f9e966cbe-t.mp3"
+ },
  "A reunião é às três.": {
   "file": "6f79ccb2231c.mp3",
   "voices": [
@@ -118,6 +134,22 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "cbe94d72705f-t.mp3"
+ },
+ "Assisto ao jogo em casa.": {
+  "voices": [
+   "Kore"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "b87bf2833f99.mp3",
+  "textbook": "b87bf2833f99-t.mp3"
+ },
+ "Assisto o jogo em casa.": {
+  "voices": [
+   "Umbriel"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "7ef95c451673.mp3",
+  "textbook": "7ef95c451673-t.mp3"
  },
  "Boa noite!": {
   "voices": [
@@ -420,6 +452,22 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "efa723ae2b76-t.mp3"
  },
+ "Eu durmo muito tarde.": {
+  "voices": [
+   "Autonoe"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "3bdda71dc04c.mp3",
+  "textbook": "3bdda71dc04c-t.mp3"
+ },
+ "Eu durmo.": {
+  "voices": [
+   "Erinome"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "764891e86868.mp3",
+  "textbook": "764891e86868-t.mp3"
+ },
  "Eu falo inglês.": {
   "file": "b36994067cb9.mp3",
   "voices": [
@@ -435,6 +483,14 @@
   "model": "gemini-3.8-flash-tts",
   "file": "09f881a2308f.mp3",
   "textbook": "09f881a2308f-t.mp3"
+ },
+ "Eu não desisto!": {
+  "voices": [
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "c36965e33400.mp3",
+  "textbook": "c36965e33400-t.mp3"
  },
  "Eu não falo espanhol.": {
   "file": "b33b7a33b75f.mp3",
@@ -459,6 +515,22 @@
   "model": "gemini-3.8-flash-tts",
   "file": "b8bcd853d8d7.mp3",
   "textbook": "b8bcd853d8d7-t.mp3"
+ },
+ "Eu prefiro café.": {
+  "voices": [
+   "Pulcherrima"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "be192f860f33.mp3",
+  "textbook": "be192f860f33-t.mp3"
+ },
+ "Eu prefiro chá.": {
+  "voices": [
+   "Aoede"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "e956b17f938b.mp3",
+  "textbook": "e956b17f938b-t.mp3"
  },
  "Eu sou Ana.": {
   "file": "e178001c40ec.mp3",
@@ -697,6 +769,14 @@
   "model": "gemini-3.8-flash-tts",
   "file": "db56e87b2e96.mp3",
   "textbook": "db56e87b2e96-t.mp3"
+ },
+ "Nós partimos amanhã.": {
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "7214d4f4c077.mp3",
+  "textbook": "7214d4f4c077-t.mp3"
  },
  "Nós vamos à praia.": {
   "file": "eb46c9b85fe5.mp3",
@@ -1094,6 +1174,14 @@
   "file": "ff0bb016d7e0.mp3",
   "textbook": "ff0bb016d7e0-t.mp3"
  },
+ "Você assiste futebol?": {
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "9924c8c267ed.mp3",
+  "textbook": "9924c8c267ed-t.mp3"
+ },
  "Você entende?": {
   "voices": [
    "Algieba"
@@ -1180,6 +1268,62 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "28fab42c6ad6-t.mp3"
+ },
+ "abre": {
+  "voices": [
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "708bf4e12e7c-t.mp3"
+ },
+ "abrem": {
+  "voices": [
+   "Leda"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "6e0de44143ef-t.mp3"
+ },
+ "abrimos": {
+  "voices": [
+   "Sadachbia"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "01f7356a4764-t.mp3"
+ },
+ "abro": {
+  "voices": [
+   "Rasalgethi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "efea6bb32680-t.mp3"
+ },
+ "assiste": {
+  "voices": [
+   "Autonoe"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "ec2595befc83-t.mp3"
+ },
+ "assistem": {
+  "voices": [
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "298ba9c2c274-t.mp3"
+ },
+ "assistimos": {
+  "voices": [
+   "Sadachbia"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "95bf83cb7aca-t.mp3"
+ },
+ "assisto": {
+  "voices": [
+   "Algenib"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "990ae0dfd06a-t.mp3"
  },
  "avó": {
   "voices": [
@@ -1532,6 +1676,34 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "c39248cd10c9-t.mp3"
  },
+ "parte": {
+  "voices": [
+   "Gacrux"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "3653c5dfa95b-t.mp3"
+ },
+ "partem": {
+  "voices": [
+   "Vindemiatrix"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "b412b35fc50b-t.mp3"
+ },
+ "partimos": {
+  "voices": [
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "8c781e949d34-t.mp3"
+ },
+ "parto": {
+  "voices": [
+   "Autonoe"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "a15fe8eaa2d8-t.mp3"
+ },
  "passo": {
   "voices": [
    "Laomedeia"
@@ -1774,6 +1946,15 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "b01abcd18dfe-t.mp3"
  },
+ "— Você assiste novela? — Assisto, às vezes.": {
+  "voices": [
+   "Fenrir",
+   "Alnilam"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "9581419a3b35.mp3",
+  "textbook": "9581419a3b35-t.mp3"
+ },
  "— Você bebe café? — Bebo, sim.": {
   "voices": [
    "Leda",
@@ -1935,6 +2116,15 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "4f93f16fe9ae-t.mp3"
+ },
+ "— Vocês assistem futebol? — Assistimos, sim.": {
+  "voices": [
+   "Leda",
+   "Iapetus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "a9d3ffc14ddf.mp3",
+  "textbook": "a9d3ffc14ddf-t.mp3"
  },
  "— Vocês comem peixe? — Comemos.": {
   "voices": [
