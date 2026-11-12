@@ -103,6 +103,14 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "a6d0eba12741-t.mp3"
  },
+ "A gente vai de ônibus?": {
+  "voices": [
+   "Sadaltager"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "9186a9785861.mp3",
+  "textbook": "9186a9785861-t.mp3"
+ },
  "A gente vai à praia.": {
   "file": "60cb564794b9.mp3",
   "voices": [
@@ -126,6 +134,14 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "6f79ccb2231c-t.mp3"
+ },
+ "Amanhã vou na festa.": {
+  "voices": [
+   "Puck"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "a135258ecd97.mp3",
+  "textbook": "a135258ecd97-t.mp3"
  },
  "As chaves tão no carro.": {
   "file": "cbe94d72705f.mp3",
@@ -166,6 +182,13 @@
   "model": "gemini-3.8-flash-tts",
   "file": "314666c7cbcd.mp3",
   "textbook": "314666c7cbcd-t.mp3"
+ },
+ "Bora!": {
+  "voices": [
+   "Leda"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "18df970bbbe8-t.mp3"
  },
  "Brasil": {
   "voices": [
@@ -437,6 +460,22 @@
   "model": "gemini-3.8-flash-tts",
   "file": "b3022762cf56.mp3",
   "textbook": "b3022762cf56-t.mp3"
+ },
+ "Eles vão pra praia no fim de semana.": {
+  "voices": [
+   "Sadaltager"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "2b9f6969ea55.mp3",
+  "textbook": "2b9f6969ea55-t.mp3"
+ },
+ "Eles vão pra praia.": {
+  "voices": [
+   "Callirrhoe"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "b31157425b5d.mp3",
+  "textbook": "b31157425b5d-t.mp3"
  },
  "Entendo.": {
   "voices": [
@@ -1263,6 +1302,22 @@
   "file": "365fdbcfd667.mp3",
   "textbook": "365fdbcfd667-t.mp3"
  },
+ "Vai chover amanhã.": {
+  "voices": [
+   "Enceladus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "3618e83893b0.mp3",
+  "textbook": "3618e83893b0-t.mp3"
+ },
+ "Vamos comer?": {
+  "voices": [
+   "Vindemiatrix"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "3cb622c6d62b.mp3",
+  "textbook": "3cb622c6d62b-t.mp3"
+ },
  "Vamos pra casa?": {
   "voices": [
    "Fenrir"
@@ -1270,6 +1325,21 @@
   "model": "gemini-3.8-flash-tts",
   "file": "ec58ee33883a.mp3",
   "textbook": "ec58ee33883a-t.mp3"
+ },
+ "Vamos tomar um café?": {
+  "voices": [
+   "Aoede"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "4f487beb1730.mp3",
+  "textbook": "4f487beb1730-t.mp3"
+ },
+ "Vamos!": {
+  "voices": [
+   "Fenrir"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "2c47dcc69714-t.mp3"
  },
  "Vi.": {
   "voices": [
@@ -1350,6 +1420,14 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "6e0ba9d17d17-t.mp3"
  },
+ "Você vai pra praia hoje?": {
+  "voices": [
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "9945a60e20bc.mp3",
+  "textbook": "9945a60e20bc-t.mp3"
+ },
  "Você é brasileiro.": {
   "file": "28178937e4a0.mp3",
   "voices": [
@@ -1389,6 +1467,62 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "9274b3a47c38-t.mp3"
+ },
+ "Vou comer agora.": {
+  "voices": [
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "23f1ba9a554d.mp3",
+  "textbook": "23f1ba9a554d-t.mp3"
+ },
+ "Vou comer.": {
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "6ab250e10bde.mp3",
+  "textbook": "6ab250e10bde-t.mp3"
+ },
+ "Vou no mercado, já volto.": {
+  "voices": [
+   "Charon"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "2c32a7d0b47f.mp3",
+  "textbook": "2c32a7d0b47f-t.mp3"
+ },
+ "Vou no mercado.": {
+  "voices": [
+   "Despina"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "c9ae25833d5d.mp3",
+  "textbook": "c9ae25833d5d-t.mp3"
+ },
+ "Vou pra casa.": {
+  "voices": [
+   "Fenrir"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "607d0ab19d62.mp3",
+  "textbook": "607d0ab19d62-t.mp3"
+ },
+ "Vou pro trabalho.": {
+  "voices": [
+   "Charon"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "2f840b322366.mp3",
+  "textbook": "2f840b322366-t.mp3"
+ },
+ "Vou trabalhar amanhã.": {
+  "voices": [
+   "Laomedeia"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "e2f979bdc5e5.mp3",
+  "textbook": "e2f979bdc5e5-t.mp3"
  },
  "a gente": {
   "voices": [
@@ -1986,6 +2120,20 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "b322bbef821c-t.mp3"
  },
+ "vai": {
+  "voices": [
+   "Alnilam"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "120032fb7016-t.mp3"
+ },
+ "vamos": {
+  "voices": [
+   "Sadaltager"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "cdfd0dfaa10c-t.mp3"
+ },
  "vinho": {
   "voices": [
    "Alnilam"
@@ -2006,6 +2154,20 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "11f81007b307-t.mp3"
+ },
+ "vou": {
+  "voices": [
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "366a30e08181-t.mp3"
+ },
+ "vão": {
+  "voices": [
+   "Autonoe"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "ae77d085b418-t.mp3"
  },
  "É.": {
   "voices": [
@@ -2083,6 +2245,15 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "28d34ab11047-t.mp3"
+ },
+ "— Pra onde você vai? — Vou pra casa.": {
+  "voices": [
+   "Alnilam",
+   "Laomedeia"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "71d9da77e06d.mp3",
+  "textbook": "71d9da77e06d-t.mp3"
  },
  "— Quantos anos você tem? — Tenho trinta anos.": {
   "voices": [
@@ -2236,6 +2407,15 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "079c56b282f7-t.mp3"
+ },
+ "— Você vai na festa hoje? — Vou, sim!": {
+  "voices": [
+   "Umbriel",
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "adf06db8c3a3.mp3",
+  "textbook": "adf06db8c3a3-t.mp3"
  },
  "— Você viu a Maria na festa? — Vi.": {
   "file": "d2dd4b7f5b59.mp3",
