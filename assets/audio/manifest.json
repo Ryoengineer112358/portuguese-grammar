@@ -182,6 +182,14 @@
   "file": "def0c1e58e80.mp3",
   "textbook": "def0c1e58e80-t.mp3"
  },
+ "Calma, a gente tem tempo.": {
+  "voices": [
+   "Kore"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "cd975638c776.mp3",
+  "textbook": "cd975638c776-t.mp3"
+ },
  "Com licença, onde fica o banheiro?": {
   "file": "63dae4cd6968.mp3",
   "voices": [
@@ -414,6 +422,14 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "959e3ddebb09-t.mp3"
  },
+ "Eles têm dois filhos.": {
+  "voices": [
+   "Fenrir"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "b230f10ba838.mp3",
+  "textbook": "b230f10ba838-t.mp3"
+ },
  "Eles vendem pão de queijo ali.": {
   "voices": [
    "Sadaltager"
@@ -580,6 +596,14 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "d2fd676e0357-t.mp3"
  },
+ "Eu tenho trinta anos.": {
+  "voices": [
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "db2227fa06f7.mp3",
+  "textbook": "db2227fa06f7-t.mp3"
+ },
  "Fala português?": {
   "file": "6eac8b53c542.mp3",
   "voices": [
@@ -618,6 +642,14 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "6ad446f398d1-t.mp3"
+ },
+ "Hoje não tem aula.": {
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "122c50c9aca1.mp3",
+  "textbook": "122c50c9aca1-t.mp3"
  },
  "Hoje tá muito quente.": {
   "voices": [
@@ -841,6 +873,14 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "7996bffe762e-t.mp3"
  },
+ "Quantos anos você tem?": {
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "884cc3af008f.mp3",
+  "textbook": "884cc3af008f-t.mp3"
+ },
  "Que horas são?": {
   "voices": [
    "Algieba"
@@ -999,6 +1039,78 @@
   "model": "gemini-3.8-flash-tts",
   "file": "960f686547b2.mp3",
   "textbook": "960f686547b2-t.mp3"
+ },
+ "Tem banheiro aqui?": {
+  "voices": [
+   "Erinome"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "2d26a06e8b34.mp3",
+  "textbook": "2d26a06e8b34-t.mp3"
+ },
+ "Tem muita gente aqui hoje.": {
+  "voices": [
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "dfce88de593a.mp3",
+  "textbook": "dfce88de593a-t.mp3"
+ },
+ "Tem muita gente aqui.": {
+  "voices": [
+   "Erinome"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "a28567fbb22e.mp3",
+  "textbook": "a28567fbb22e-t.mp3"
+ },
+ "Tem muita gente na festa.": {
+  "voices": [
+   "Schedar"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "ed8843d9944f.mp3",
+  "textbook": "ed8843d9944f-t.mp3"
+ },
+ "Tem água?": {
+  "voices": [
+   "Autonoe"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "90fd551fb45e.mp3",
+  "textbook": "90fd551fb45e-t.mp3"
+ },
+ "Tenho que sair agora.": {
+  "voices": [
+   "Laomedeia"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "89667e40335d.mp3",
+  "textbook": "89667e40335d-t.mp3"
+ },
+ "Tenho que trabalhar amanhã.": {
+  "voices": [
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "9c6ecf0d8415.mp3",
+  "textbook": "9c6ecf0d8415-t.mp3"
+ },
+ "Tenho trinta anos.": {
+  "voices": [
+   "Despina"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "d0b24f01483c.mp3",
+  "textbook": "d0b24f01483c-t.mp3"
+ },
+ "Tenho vinte e cinco anos.": {
+  "voices": [
+   "Vindemiatrix"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "57309285c6bd.mp3",
+  "textbook": "57309285c6bd-t.mp3"
  },
  "Trabalho todo dia.": {
   "voices": [
@@ -1213,6 +1325,22 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "2a8004c8384c-t.mp3"
+ },
+ "Você tem irmãos?": {
+  "voices": [
+   "Aoede"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "919feb78e790.mp3",
+  "textbook": "919feb78e790-t.mp3"
+ },
+ "Você tem água?": {
+  "voices": [
+   "Sulafat"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "46ed2571f2d0.mp3",
+  "textbook": "46ed2571f2d0-t.mp3"
  },
  "Você tá bonita hoje.": {
   "file": "6e0ba9d17d17.mp3",
@@ -1767,12 +1895,33 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "286f1aa53cd9-t.mp3"
  },
+ "tem": {
+  "voices": [
+   "Alnilam"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "8ac2bd0a2b41-t.mp3"
+ },
+ "temos": {
+  "voices": [
+   "Erinome"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "0da39acb57f1-t.mp3"
+ },
  "tempo": {
   "voices": [
    "Despina"
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "65e336e20c50-t.mp3"
+ },
+ "tenho": {
+  "voices": [
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "bc217aa265a7-t.mp3"
  },
  "trabalha": {
   "voices": [
@@ -1822,6 +1971,13 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "1f558ad50c8a-t.mp3"
+ },
+ "têm": {
+  "voices": [
+   "Puck"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "0aa779d28d10-t.mp3"
  },
  "tô": {
   "voices": [
@@ -1927,6 +2083,15 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "28d34ab11047-t.mp3"
+ },
+ "— Quantos anos você tem? — Tenho trinta anos.": {
+  "voices": [
+   "Algieba",
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "04212784415b.mp3",
+  "textbook": "04212784415b-t.mp3"
  },
  "— Tudo bem? — Tudo bem, sim.": {
   "file": "d354f7266f78.mp3",
@@ -2044,6 +2209,15 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "3ec04b77e87a-t.mp3"
+ },
+ "— Você tem irmãos? — Tenho uma irmã.": {
+  "voices": [
+   "Orus",
+   "Algenib"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "5452cc4182ed.mp3",
+  "textbook": "5452cc4182ed-t.mp3"
  },
  "— Você tá cansado? — Não, não tô.": {
   "file": "c7b2da058b46.mp3",
