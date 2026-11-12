@@ -30,7 +30,7 @@
     - { id: "02-06", title: "Querer and poder: want and can", status: published }
     - { id: "02-07", title: "Gostar de: likes and dislikes", status: published }
     - { id: "02-08", title: "Fazer, saber, conhecer", status: published }
-    - { id: "02-09", title: "Estar + -ndo: what's happening right now", status: planned }
+    - { id: "02-09", title: "Estar + -ndo: what's happening right now", status: published }
 
 - chapter: 3
   title: "Nouns and Articles"

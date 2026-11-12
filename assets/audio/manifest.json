@@ -261,6 +261,14 @@
   "file": "cd975638c776.mp3",
   "textbook": "cd975638c776-t.mp3"
  },
+ "Calma, a gente tá chegando!": {
+  "voices": [
+   "Leda"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "6be5f087dacd.mp3",
+  "textbook": "6be5f087dacd-t.mp3"
+ },
  "Com licença, onde fica o banheiro?": {
   "file": "63dae4cd6968.mp3",
   "voices": [
@@ -525,6 +533,14 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "959e3ddebb09-t.mp3"
  },
+ "Eles tão dormindo.": {
+  "voices": [
+   "Algenib"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "3f384486ab7f.mp3",
+  "textbook": "3f384486ab7f-t.mp3"
+ },
  "Eles têm dois filhos.": {
   "voices": [
    "Fenrir"
@@ -634,6 +650,14 @@
   "model": "gemini-3.8-flash-tts",
   "file": "0368d01bb6fa.mp3",
   "textbook": "0368d01bb6fa-t.mp3"
+ },
+ "Eu moro em São Paulo.": {
+  "voices": [
+   "Alnilam"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "371fbec17043.mp3",
+  "textbook": "371fbec17043-t.mp3"
  },
  "Eu não como carne.": {
   "voices": [
@@ -770,6 +794,14 @@
   "model": "gemini-3.8-flash-tts",
   "file": "db2227fa06f7.mp3",
   "textbook": "db2227fa06f7-t.mp3"
+ },
+ "Fala baixo, ela tá dormindo.": {
+  "voices": [
+   "Iapetus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "875467f75555.mp3",
+  "textbook": "875467f75555-t.mp3"
  },
  "Fala português?": {
   "file": "6eac8b53c542.mp3",
@@ -953,6 +985,14 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "8464c4338071-t.mp3"
  },
+ "Moro em Tóquio.": {
+  "voices": [
+   "Vindemiatrix"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "3969c41b4144.mp3",
+  "textbook": "3969c41b4144-t.mp3"
+ },
  "Ninguém sabe.": {
   "file": "237b62ee2434.mp3",
   "voices": [
@@ -1120,6 +1160,14 @@
   "model": "gemini-3.8-flash-tts",
   "file": "4e168af88b19.mp3",
   "textbook": "4e168af88b19-t.mp3"
+ },
+ "O que você tá fazendo?": {
+  "voices": [
+   "Charon"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "bb09d618470c.mp3",
+  "textbook": "bb09d618470c-t.mp3"
  },
  "O que você vai fazer hoje?": {
   "voices": [
@@ -1519,6 +1567,22 @@
   "file": "7185c2d71924.mp3",
   "textbook": "7185c2d71924-t.mp3"
  },
+ "Tá chovendo lá fora.": {
+  "voices": [
+   "Iapetus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "67a293fb4732.mp3",
+  "textbook": "67a293fb4732-t.mp3"
+ },
+ "Tá chovendo.": {
+  "voices": [
+   "Sadaltager"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "17b31fde93a6.mp3",
+  "textbook": "17b31fde93a6-t.mp3"
+ },
  "Tá frio hoje.": {
   "file": "cdd7d77271cc.mp3",
   "voices": [
@@ -1527,12 +1591,28 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "cdd7d77271cc-t.mp3"
  },
+ "Tá gostando do Brasil?": {
+  "voices": [
+   "Charon"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "2d768e82628b.mp3",
+  "textbook": "2d768e82628b-t.mp3"
+ },
  "Tá.": {
   "voices": [
    "Orus"
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "fa16dd182214-t.mp3"
+ },
+ "Tô aprendendo português.": {
+  "voices": [
+   "Leda"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "4a8c953b48c0.mp3",
+  "textbook": "4a8c953b48c0-t.mp3"
  },
  "Tô atrasado.": {
   "file": "b7121e941a95.mp3",
@@ -1574,6 +1654,22 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "1671353aa121-t.mp3"
  },
+ "Tô comendo, te ligo mais tarde.": {
+  "voices": [
+   "Gacrux"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "49ffc6386422.mp3",
+  "textbook": "49ffc6386422-t.mp3"
+ },
+ "Tô comendo.": {
+  "voices": [
+   "Aoede"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "90d7ed1b51b6.mp3",
+  "textbook": "90d7ed1b51b6-t.mp3"
+ },
  "Tô em casa.": {
   "file": "10c6063b3215.mp3",
   "voices": [
@@ -1590,6 +1686,22 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "c26155b6d121-t.mp3"
  },
+ "Tô indo!": {
+  "voices": [
+   "Despina"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "7411e7aecd8b.mp3",
+  "textbook": "7411e7aecd8b-t.mp3"
+ },
+ "Tô morando em São Paulo.": {
+  "voices": [
+   "Algenib"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "cbeb16cf50bb.mp3",
+  "textbook": "cbeb16cf50bb-t.mp3"
+ },
  "Tô muito cansado.": {
   "file": "fd46856659a5.mp3",
   "voices": [
@@ -1605,6 +1717,22 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "3c51cbf6c13a-t.mp3"
+ },
+ "Tô trabalhando agora, te ligo mais tarde.": {
+  "voices": [
+   "Sulafat"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "1c7650b9f0c3.mp3",
+  "textbook": "1c7650b9f0c3-t.mp3"
+ },
+ "Tô trabalhando.": {
+  "voices": [
+   "Achernar"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "140a09f091a3.mp3",
+  "textbook": "140a09f091a3-t.mp3"
  },
  "Um copo de água, por favor.": {
   "voices": [
@@ -1936,6 +2064,20 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "01f7356a4764-t.mp3"
  },
+ "abrindo": {
+  "voices": [
+   "Sadaltager"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "8616d5c7f5c8-t.mp3"
+ },
+ "abrir": {
+  "voices": [
+   "Vindemiatrix"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "50d3cb21565a-t.mp3"
+ },
  "abro": {
   "voices": [
    "Rasalgethi"
@@ -2082,6 +2224,20 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "84146d14d3e8-t.mp3"
+ },
+ "comendo": {
+  "voices": [
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "13a81e3b53ca-t.mp3"
+ },
+ "comer": {
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "5fb14f826fec-t.mp3"
  },
  "como": {
   "voices": [
@@ -2280,6 +2436,20 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "158e3213e469-t.mp3"
  },
+ "falando": {
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "44f92b1aef24-t.mp3"
+ },
+ "falar": {
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "713a1504f8d3-t.mp3"
+ },
  "falo": {
   "voices": [
    "Algieba"
@@ -2307,6 +2477,20 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "7eac6ecdaf18-t.mp3"
+ },
+ "fazendo": {
+  "voices": [
+   "Despina"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "02ea84000048-t.mp3"
+ },
+ "fazer": {
+  "voices": [
+   "Laomedeia"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "82a426517e53-t.mp3"
  },
  "faço": {
   "voices": [
@@ -2356,6 +2540,20 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "b5364edb6b05-t.mp3"
+ },
+ "indo": {
+  "voices": [
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "2589cae7d560-t.mp3"
+ },
+ "ir": {
+  "voices": [
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "aa1553beed5d-t.mp3"
  },
  "janela": {
   "voices": [
@@ -2742,6 +2940,15 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "bf15be717ac1-t.mp3"
  },
+ "— Cadê o João? — Tá tomando banho.": {
+  "voices": [
+   "Rasalgethi",
+   "Despina"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "33d17123a683.mp3",
+  "textbook": "33d17123a683-t.mp3"
+ },
  "— Como você tá? — Tô bem!": {
   "file": "9724da27b595.mp3",
   "voices": [
@@ -2777,6 +2984,15 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "00492ab40054-t.mp3"
+ },
+ "— O que você tá fazendo? — Tô trabalhando.": {
+  "voices": [
+   "Schedar",
+   "Gacrux"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "400021c3f6b5.mp3",
+  "textbook": "400021c3f6b5-t.mp3"
  },
  "— Oi, tudo bem? — Tudo bem, e você?": {
   "file": "1d1d042086af.mp3",
