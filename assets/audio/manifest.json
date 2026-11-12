@@ -603,6 +603,14 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "efa723ae2b76-t.mp3"
  },
+ "Eu como carne.": {
+  "voices": [
+   "Sadaltager"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "21d88c7f6bfe.mp3",
+  "textbook": "21d88c7f6bfe-t.mp3"
+ },
  "Eu durmo muito tarde.": {
   "voices": [
    "Autonoe"
@@ -794,6 +802,14 @@
   "model": "gemini-3.8-flash-tts",
   "file": "db2227fa06f7.mp3",
   "textbook": "db2227fa06f7-t.mp3"
+ },
+ "Eu trabalho num banco.": {
+  "voices": [
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "5d68cc6b1a2b.mp3",
+  "textbook": "5d68cc6b1a2b-t.mp3"
  },
  "Fala baixo, ela tá dormindo.": {
   "voices": [

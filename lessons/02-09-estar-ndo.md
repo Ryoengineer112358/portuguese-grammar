@@ -7,7 +7,7 @@ goal: "Say what you're doing right now or these days with tô + -ndo, and know w
 verification:
   status: source-checked
   checked_on: 2026-11-12
-  note: "Forming the gerund by replacing the final -r with -ndo, estar + gerund for actions in progress and for a temporary phase, and Brazil's estar + gerund vs. Portugal's estar a + infinitive each agree across Elon and Mango (Elon on two pages). That habits and settled facts keep the plain present (moro vs. tô morando) rests on Elon only. Pôr → pondo as the exception rests on Mango (Elon says a few gerunds are irregular without listing them). Not yet reviewed by a native speaker or teacher. IPA is from Wiktionary only; sentence IPA strings together dictionary forms. Filled in by analogy (not found on Wiktionary): morando /moˈɾɐ̃.du/ (from morar and falando), the article o /u/."
+  note: "Forming the gerund by replacing the final -r with -ndo, estar + gerund for actions in progress and for a temporary phase, and Brazil's estar + gerund vs. Portugal's estar a + infinitive each agree across Elon and Mango (Elon on two pages). That habits and settled facts keep the plain present (moro vs. tô morando) rests on Elon only. Pôr → pondo as the exception rests on Mango (Elon says a few gerunds are irregular without listing them). Not yet reviewed by a native speaker or teacher. IPA is from Wiktionary only; sentence IPA strings together dictionary forms. Filled in by analogy (not found on Wiktionary): morando /moˈɾɐ̃.du/ (from morar and falando), bebendo /beˈbẽ.du/ (from beber and comendo), the article o /u/."
 sources:
   - title: "Estar + gerúndio"
     publisher: "Elon.io — Brazilian Portuguese grammar"
@@ -44,7 +44,7 @@ Put it after *estar* — in speech, the short forms *tô*, *tá*, *tamo*, *tão*
 - *Tô trabalhando.* <span class="ipa">/ˈto tɾa.baˈʎɐ̃.du/</span> — I'm working.
 - *Tá chovendo.* <span class="ipa">/ˈta ʃoˈvẽ.du/</span> — It's raining.
 
-The one common exception is *pôr* /ˈpo(ʁ)/ ("to put"), whose gerund is *pondo* /ˈpõ.du/.
+There are very few exceptions; the one you'll meet is *pôr* /ˈpo(ʁ)/ ("to put"), whose gerund is *pondo* /ˈpõ.du/.
 
 ## Three things to know
 
@@ -61,7 +61,7 @@ The one common exception is *pôr* /ˈpo(ʁ)/ ("to put"), whose gerund is *pondo
 - *Eu moro em São Paulo.* <span class="ipa">/ˈew ˈmɔ.ɾu ẽj̃ ˈsɐ̃w̃ ˈpaw.lu/</span> — I live in São Paulo. (it's my home)
 - *Tô morando em São Paulo.* <span class="ipa">/ˈto moˈɾɐ̃.du ẽj̃ ˈsɐ̃w̃ ˈpaw.lu/</span> — I'm living in São Paulo. (for now)
 
-Likewise, *Eu como carne* is "I eat meat" (in general), while *Tô comendo* is "I'm eating" (right now).
+Likewise, *Eu como carne.* <span class="ipa">/ˈew ˈkõ.mu ˈkaʁ.ni/</span> — "I eat meat" (in general), but *Tô comendo.* <span class="ipa">/ˈto koˈmẽ.du/</span> — "I'm eating" (right now).
 
 ## In conversation
 
@@ -84,7 +84,7 @@ Likewise, *Eu como carne* is "I eat meat" (in general), while *Tô comendo* is "
 > **Don't forget *estar*, and make it agree.** ✗ *Está chove.* ✗ *Eles está dormindo.*<br>
 > ✓ *Eles tão dormindo.* <span class="ipa">/ˈe.lis ˈtɐ̃w̃ doʁˈmĩ.du/</span> — They're sleeping.
 
-> **Don't use it for a permanent home or a habit.** *Eu trabalho num banco* is "I work at a bank" (my job); *Tô trabalhando* is "I'm working" (now).
+> **Don't use it for a permanent home or a habit.** *Eu trabalho num banco.* <span class="ipa">/ˈew tɾaˈba.ʎu ˈnũ ˈbɐ̃.ku/</span> — "I work at a bank" (my job). *Tô trabalhando.* <span class="ipa">/ˈto tɾa.baˈʎɐ̃.du/</span> — "I'm working" (now).
 
 ## Quick check
 
@@ -103,5 +103,5 @@ Likewise, *Eu como carne* is "I eat meat" (in general), while *Tô comendo* is "
 <details markdown="1">
 <summary>3. Which fits "I live in Tokyo" (it's your home): <em>Moro em Tóquio</em> or <em>Tô morando em Tóquio</em>?</summary>
 
-*Moro em Tóquio.* <span class="ipa">/ˈmɔ.ɾu ẽj̃ ˈtɔ.ki.u/</span> — "I live in Tokyo." *Tô morando* would suggest it's only for now.
+*Moro em Tóquio.* <span class="ipa">/ˈmɔ.ɾu ẽj̃ ˈtɔ.kju/</span> — "I live in Tokyo." *Tô morando* would suggest it's only for now.
 </details>
