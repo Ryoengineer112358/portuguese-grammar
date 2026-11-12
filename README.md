@@ -15,6 +15,7 @@
   - [02-05 Ir: to go](https://ryoengineer112358.github.io/portuguese-grammar/lessons/02-05/)
   - [02-06 Querer and poder: want and can](https://ryoengineer112358.github.io/portuguese-grammar/lessons/02-06/)
   - [02-07 Gostar de: likes and dislikes](https://ryoengineer112358.github.io/portuguese-grammar/lessons/02-07/)
+  - [02-08 Fazer, saber, conhecer](https://ryoengineer112358.github.io/portuguese-grammar/lessons/02-08/)
 - [**3. Nouns and Articles**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-3)
 - [**4. Asking Questions**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-4)
 - [**5. Plans and the Future**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-5)

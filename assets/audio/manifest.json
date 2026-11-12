@@ -795,6 +795,30 @@
   "file": "21fdba886330.mp3",
   "textbook": "21fdba886330-t.mp3"
  },
+ "Faz dois anos que moro aqui.": {
+  "voices": [
+   "Gacrux"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "7b56b6eea115.mp3",
+  "textbook": "7b56b6eea115-t.mp3"
+ },
+ "Faz dois anos.": {
+  "voices": [
+   "Algenib"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "9966eb0f93ce.mp3",
+  "textbook": "9966eb0f93ce-t.mp3"
+ },
+ "Faz muito calor aqui.": {
+  "voices": [
+   "Sulafat"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "945334084751.mp3",
+  "textbook": "945334084751-t.mp3"
+ },
  "Gosto da praia.": {
   "voices": [
    "Puck"
@@ -849,6 +873,30 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "6ad446f398d1-t.mp3"
+ },
+ "Hoje eu faço o jantar.": {
+  "voices": [
+   "Sulafat"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "f093c4035375.mp3",
+  "textbook": "f093c4035375-t.mp3"
+ },
+ "Hoje faz frio.": {
+  "voices": [
+   "Orus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "329d933de534.mp3",
+  "textbook": "329d933de534-t.mp3"
+ },
+ "Hoje faz muito calor.": {
+  "voices": [
+   "Iapetus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "f2eb8393d0b3.mp3",
+  "textbook": "f2eb8393d0b3-t.mp3"
  },
  "Hoje não tem aula.": {
   "voices": [
@@ -1073,6 +1121,14 @@
   "file": "4e168af88b19.mp3",
   "textbook": "4e168af88b19-t.mp3"
  },
+ "O que você vai fazer hoje?": {
+  "voices": [
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "675d8e7f4b44.mp3",
+  "textbook": "675d8e7f4b44-t.mp3"
+ },
  "O restaurante fica na esquina.": {
   "file": "7cf98cd5d46b.mp3",
   "voices": [
@@ -1190,6 +1246,14 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "d14a8f4af870-t.mp3"
+ },
+ "Sei lá.": {
+  "voices": [
+   "Autonoe"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "cbd833f238ef.mp3",
+  "textbook": "cbd833f238ef-t.mp3"
  },
  "Sei não.": {
   "file": "50496a87de27.mp3",
@@ -1612,6 +1676,38 @@
   "file": "9924c8c267ed.mp3",
   "textbook": "9924c8c267ed-t.mp3"
  },
+ "Você conhece São Paulo?": {
+  "voices": [
+   "Rasalgethi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "154a1baedddf.mp3",
+  "textbook": "154a1baedddf-t.mp3"
+ },
+ "Você conhece a Ana?": {
+  "voices": [
+   "Umbriel"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "db448b8fdc06.mp3",
+  "textbook": "db448b8fdc06-t.mp3"
+ },
+ "Você conhece o Rio?": {
+  "voices": [
+   "Erinome"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "6f5fe226dea2.mp3",
+  "textbook": "6f5fe226dea2-t.mp3"
+ },
+ "Você conhece o meu irmão?": {
+  "voices": [
+   "Despina"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "0b8ca957a265.mp3",
+  "textbook": "0b8ca957a265-t.mp3"
+ },
  "Você entende?": {
   "voices": [
    "Algieba"
@@ -1659,6 +1755,30 @@
   "model": "gemini-3.8-flash-tts",
   "file": "c78bab98361e.mp3",
   "textbook": "c78bab98361e-t.mp3"
+ },
+ "Você sabe dirigir?": {
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "de7fddb30407.mp3",
+  "textbook": "de7fddb30407-t.mp3"
+ },
+ "Você sabe onde fica o banheiro?": {
+  "voices": [
+   "Autonoe"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "b17e82169de4.mp3",
+  "textbook": "b17e82169de4-t.mp3"
+ },
+ "Você sabe que horas são?": {
+  "voices": [
+   "Vindemiatrix"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "8410ed0819c2.mp3",
+  "textbook": "8410ed0819c2-t.mp3"
  },
  "Você tem irmãos?": {
   "voices": [
@@ -1970,6 +2090,34 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "ef70a17048f2-t.mp3"
  },
+ "conhece": {
+  "voices": [
+   "Rasalgethi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "0a453cb53b4f-t.mp3"
+ },
+ "conhecem": {
+  "voices": [
+   "Schedar"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "cd064bb971ac-t.mp3"
+ },
+ "conhecemos": {
+  "voices": [
+   "Rasalgethi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "9a9b77c74c17-t.mp3"
+ },
+ "conheço": {
+  "voices": [
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "981348d1b0e8-t.mp3"
+ },
  "copo": {
   "voices": [
    "Iapetus"
@@ -2138,6 +2286,34 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "a939963602c2-t.mp3"
+ },
+ "faz": {
+  "voices": [
+   "Achernar"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "e05085f3af23-t.mp3"
+ },
+ "fazem": {
+  "voices": [
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "f34b25918efe-t.mp3"
+ },
+ "fazemos": {
+  "voices": [
+   "Leda"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "7eac6ecdaf18-t.mp3"
+ },
+ "faço": {
+  "voices": [
+   "Kore"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "05870268a106-t.mp3"
  },
  "feliz": {
   "voices": [
@@ -2349,12 +2525,40 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "c10efc6ddc16-t.mp3"
  },
+ "sabe": {
+  "voices": [
+   "Leda"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "72c8348b7058-t.mp3"
+ },
+ "sabem": {
+  "voices": [
+   "Leda"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "2cd3e3284581-t.mp3"
+ },
+ "sabemos": {
+  "voices": [
+   "Algenib"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "0222da811d11-t.mp3"
+ },
  "sal": {
   "voices": [
    "Callirrhoe"
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "caf8dae1703b-t.mp3"
+ },
+ "sei": {
+  "voices": [
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "5ef4186b6563-t.mp3"
  },
  "somos": {
   "voices": [
@@ -2628,6 +2832,15 @@
   "file": "04212784415b.mp3",
   "textbook": "04212784415b-t.mp3"
  },
+ "— Quem é ele? — Sei lá.": {
+  "voices": [
+   "Laomedeia",
+   "Orus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "e80d578413b1.mp3",
+  "textbook": "e80d578413b1-t.mp3"
+ },
  "— Quer um café? — Pode ser!": {
   "voices": [
    "Charon",
@@ -2672,6 +2885,15 @@
   "model": "gemini-3.8-flash-tts",
   "file": "802436c6989b.mp3",
   "textbook": "802436c6989b-t.mp3"
+ },
+ "— Você conhece o Rio? — Ainda não.": {
+  "voices": [
+   "Vindemiatrix",
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "09ec88c2f733.mp3",
+  "textbook": "09ec88c2f733-t.mp3"
  },
  "— Você entende? — Entendo, mais ou menos.": {
   "voices": [
@@ -2772,6 +2994,15 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "79c66ee4181f-t.mp3"
  },
+ "— Você sabe dirigir? — Sei, sim.": {
+  "voices": [
+   "Despina",
+   "Alnilam"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "1fc4e66c3b41.mp3",
+  "textbook": "1fc4e66c3b41-t.mp3"
+ },
  "— Você sabe onde ela tá? — Sei não.": {
   "file": "3ec04b77e87a.mp3",
   "voices": [
@@ -2780,6 +3011,15 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "3ec04b77e87a-t.mp3"
+ },
+ "— Você sabe onde fica o banheiro? — Não sei.": {
+  "voices": [
+   "Zubenelgenubi",
+   "Pulcherrima"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "6de87faf438e.mp3",
+  "textbook": "6de87faf438e-t.mp3"
  },
  "— Você tem irmãos? — Tenho uma irmã.": {
   "voices": [
