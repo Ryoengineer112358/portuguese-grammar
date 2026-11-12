@@ -95,6 +95,14 @@
   "file": "ce4c38868c0f.mp3",
   "textbook": "ce4c38868c0f-t.mp3"
  },
+ "A gente quer ir pra praia.": {
+  "voices": [
+   "Vindemiatrix"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "e1c27fef83ad.mp3",
+  "textbook": "e1c27fef83ad-t.mp3"
+ },
  "A gente vai amanhã.": {
   "file": "a6d0eba12741.mp3",
   "voices": [
@@ -397,6 +405,14 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "9fe2d639007d-t.mp3"
  },
+ "Ele quer sair.": {
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "0d605758413f.mp3",
+  "textbook": "0d605758413f-t.mp3"
+ },
  "Ele é brasileiro.": {
   "file": "522038bda679.mp3",
   "voices": [
@@ -436,6 +452,14 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "45f5267cfeeb-t.mp3"
+ },
+ "Eles não podem vir hoje.": {
+  "voices": [
+   "Puck"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "9820bef66f22.mp3",
+  "textbook": "9820bef66f22-t.mp3"
  },
  "Eles são brasileiros.": {
   "file": "959e3ddebb09.mp3",
@@ -586,6 +610,30 @@
   "model": "gemini-3.8-flash-tts",
   "file": "e956b17f938b.mp3",
   "textbook": "e956b17f938b-t.mp3"
+ },
+ "Eu queria um café, por favor.": {
+  "voices": [
+   "Achird"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "9d21e4fb0f54.mp3",
+  "textbook": "9d21e4fb0f54-t.mp3"
+ },
+ "Eu queria uma água, por favor.": {
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "42b01ddebeb0.mp3",
+  "textbook": "42b01ddebeb0-t.mp3"
+ },
+ "Eu sei nadar.": {
+  "voices": [
+   "Iapetus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "9380ab103c6a.mp3",
+  "textbook": "9380ab103c6a-t.mp3"
  },
  "Eu sou Ana.": {
   "file": "e178001c40ec.mp3",
@@ -777,6 +825,14 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "76f505bc5bce-t.mp3"
  },
+ "Não posso falar agora.": {
+  "voices": [
+   "Iapetus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "deed670bd9e6.mp3",
+  "textbook": "deed670bd9e6-t.mp3"
+ },
  "Não sei, não.": {
   "file": "831b282db959.mp3",
   "voices": [
@@ -865,6 +921,22 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "1d1dadad500f-t.mp3"
  },
+ "O que quer dizer essa palavra?": {
+  "voices": [
+   "Enceladus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "366c18f18dc0.mp3",
+  "textbook": "366c18f18dc0-t.mp3"
+ },
+ "O que você quer fazer hoje?": {
+  "voices": [
+   "Leda"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "4e168af88b19.mp3",
+  "textbook": "4e168af88b19-t.mp3"
+ },
  "O restaurante fica na esquina.": {
   "file": "7cf98cd5d46b.mp3",
   "voices": [
@@ -904,6 +976,38 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "bbd257fce219-t.mp3"
  },
+ "Pode chover.": {
+  "voices": [
+   "Zephyr"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "55ec7edcd564.mp3",
+  "textbook": "55ec7edcd564-t.mp3"
+ },
+ "Pode me ajudar?": {
+  "voices": [
+   "Autonoe"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "e764087db876.mp3",
+  "textbook": "e764087db876-t.mp3"
+ },
+ "Pode ser!": {
+  "voices": [
+   "Kore"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "edc21fd2810f.mp3",
+  "textbook": "edc21fd2810f-t.mp3"
+ },
+ "Posso sentar aqui?": {
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "6f4615d570f6.mp3",
+  "textbook": "6f4615d570f6-t.mp3"
+ },
  "Prazer, eu sou a Ana.": {
   "file": "7996bffe762e.mp3",
   "voices": [
@@ -935,6 +1039,14 @@
   "model": "gemini-3.8-flash-tts",
   "file": "7e10c5387ea0.mp3",
   "textbook": "7e10c5387ea0-t.mp3"
+ },
+ "Quer um café?": {
+  "voices": [
+   "Gacrux"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "9a26ca59ee6d.mp3",
+  "textbook": "9a26ca59ee6d-t.mp3"
  },
  "Rio": {
   "voices": [
@@ -1395,6 +1507,14 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "2a8004c8384c-t.mp3"
+ },
+ "Você pode me ajudar?": {
+  "voices": [
+   "Algenib"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "c78bab98361e.mp3",
+  "textbook": "c78bab98361e-t.mp3"
  },
  "Você tem irmãos?": {
   "voices": [
@@ -1973,6 +2093,34 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "d9997c3e8ea8-t.mp3"
  },
+ "pode": {
+  "voices": [
+   "Zubenelgenubi"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "01ccbc313fa4-t.mp3"
+ },
+ "podem": {
+  "voices": [
+   "Despina"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "44e810d0e101-t.mp3"
+ },
+ "podemos": {
+  "voices": [
+   "Orus"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "08cb507d5e61-t.mp3"
+ },
+ "posso": {
+  "voices": [
+   "Charon"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "f04f40b549e9-t.mp3"
+ },
  "pão": {
   "voices": [
    "Achird"
@@ -1993,6 +2141,34 @@
   ],
   "model": "gemini-3.8-flash-tts",
   "textbook": "fc42828ba3c0-t.mp3"
+ },
+ "quer": {
+  "voices": [
+   "Puck"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "5890296c7710-t.mp3"
+ },
+ "querem": {
+  "voices": [
+   "Alnilam"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "c6e020d94b2e-t.mp3"
+ },
+ "queremos": {
+  "voices": [
+   "Vindemiatrix"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "ed156320de89-t.mp3"
+ },
+ "quero": {
+  "voices": [
+   "Erinome"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "textbook": "c10efc6ddc16-t.mp3"
  },
  "sal": {
   "voices": [
@@ -2246,6 +2422,15 @@
   "model": "gemini-3.8-flash-tts",
   "textbook": "28d34ab11047-t.mp3"
  },
+ "— Posso sentar aqui? — Pode.": {
+  "voices": [
+   "Vindemiatrix",
+   "Charon"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "e99e80389461.mp3",
+  "textbook": "e99e80389461-t.mp3"
+ },
  "— Pra onde você vai? — Vou pra casa.": {
   "voices": [
    "Alnilam",
@@ -2263,6 +2448,15 @@
   "model": "gemini-3.8-flash-tts",
   "file": "04212784415b.mp3",
   "textbook": "04212784415b-t.mp3"
+ },
+ "— Quer um café? — Pode ser!": {
+  "voices": [
+   "Charon",
+   "Algieba"
+  ],
+  "model": "gemini-3.8-flash-tts",
+  "file": "0b50e3b62c0f.mp3",
+  "textbook": "0b50e3b62c0f-t.mp3"
  },
  "— Tudo bem? — Tudo bem, sim.": {
   "file": "d354f7266f78.mp3",

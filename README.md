@@ -13,6 +13,7 @@
   - [02-03 Regular -ir verbs: abrir, partir, assistir](https://ryoengineer112358.github.io/portuguese-grammar/lessons/02-03/)
   - [02-04 Ter: to have (and 'there is')](https://ryoengineer112358.github.io/portuguese-grammar/lessons/02-04/)
   - [02-05 Ir: to go](https://ryoengineer112358.github.io/portuguese-grammar/lessons/02-05/)
+  - [02-06 Querer and poder: want and can](https://ryoengineer112358.github.io/portuguese-grammar/lessons/02-06/)
 - [**3. Nouns and Articles**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-3)
 - [**4. Asking Questions**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-4)
 - [**5. Plans and the Future**](https://ryoengineer112358.github.io/portuguese-grammar/#ch-5)
